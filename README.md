@@ -16,7 +16,7 @@ Here's what I did:
 
 - To make things even more interesting, I brought Skytrax into the mix. They also publish a list of top 100 airports every year based on a global survey. I thought it'd be fun to see how their list compares to FlightRadar24's.
 
-- Comparing the two lists was eye-opening. About 43% of the airports on FlightRadar24's list also appeared on Skytrax's top 100. But despite these differences, both lists agreed on one thing: Singapore Changi Airport is the best in the world!
+- Comparing the two lists was eye-opening. About 43% of the airports on FlightRadar24's top 100 list also appeared on Skytrax's top 100. But despite these differences, both lists agreed on one thing: Singapore Changi Airport is the best in the world!
 
 ## Libraries
 
