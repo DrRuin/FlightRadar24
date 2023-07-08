@@ -1,0 +1,4206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e59d00a2aa44cfbd4eb0ebc85c81fc7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e59d00a2aa44cfbd4eb0ebc85c81fc7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e59d00a2aa44cfbd4eb0ebc85c81fc7c = L.map(
+                "map_e59d00a2aa44cfbd4eb0ebc85c81fc7c",
+                {
+                    center: [19.549560868020304, 15.572624553299487],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_93892d635fc644881f4e0f8c5a0229fe = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+            var marker_509a4f4f482d25634b19debfa5876bbf = L.marker(
+                [34.565842, 69.21241],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1fa612b044f72c5848138c07e762089a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_349fb0c316236bd1231ec521a37f80a2 = $(`<div id="html_349fb0c316236bd1231ec521a37f80a2" style="width: 100.0%; height: 100.0%;">Kabul International Airport</div>`)[0];
+                popup_1fa612b044f72c5848138c07e762089a.setContent(html_349fb0c316236bd1231ec521a37f80a2);
+            
+        
+
+        marker_509a4f4f482d25634b19debfa5876bbf.bindPopup(popup_1fa612b044f72c5848138c07e762089a)
+        ;
+
+        
+    
+    
+            var marker_48adae4e9cb290735c1d8439d11cd59f = L.marker(
+                [41.414742, 19.72056],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_6194d0a6adca71cc05d0bd010dddcf6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f130f18b2e806c1acba48eb4ac3aa958 = $(`<div id="html_f130f18b2e806c1acba48eb4ac3aa958" style="width: 100.0%; height: 100.0%;">Tirana International Airport</div>`)[0];
+                popup_6194d0a6adca71cc05d0bd010dddcf6f.setContent(html_f130f18b2e806c1acba48eb4ac3aa958);
+            
+        
+
+        marker_48adae4e9cb290735c1d8439d11cd59f.bindPopup(popup_6194d0a6adca71cc05d0bd010dddcf6f)
+        ;
+
+        
+    
+    
+            var marker_dcc2fedbb74e3c60e577d7c0a34cbf1f = L.marker(
+                [36.69101, 3.215408],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_6f09980d00769d809f85e94bf3d61206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f02ea50dd1d186c8e7dfe3b2c6ac1a = $(`<div id="html_b9f02ea50dd1d186c8e7dfe3b2c6ac1a" style="width: 100.0%; height: 100.0%;">Algiers Houari Boumediene Airport</div>`)[0];
+                popup_6f09980d00769d809f85e94bf3d61206.setContent(html_b9f02ea50dd1d186c8e7dfe3b2c6ac1a);
+            
+        
+
+        marker_dcc2fedbb74e3c60e577d7c0a34cbf1f.bindPopup(popup_6f09980d00769d809f85e94bf3d61206)
+        ;
+
+        
+    
+    
+            var marker_420d757bd8626b52b3ea73fdc29c5c68 = L.marker(
+                [-8.85837, 13.23117],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cbc21ef141e54b02a79114aba8ac9e90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddb5c4e08a9a26c273e41ea2665aa0b4 = $(`<div id="html_ddb5c4e08a9a26c273e41ea2665aa0b4" style="width: 100.0%; height: 100.0%;">Luanda Quatro de Fevereiro Airport</div>`)[0];
+                popup_cbc21ef141e54b02a79114aba8ac9e90.setContent(html_ddb5c4e08a9a26c273e41ea2665aa0b4);
+            
+        
+
+        marker_420d757bd8626b52b3ea73fdc29c5c68.bindPopup(popup_cbc21ef141e54b02a79114aba8ac9e90)
+        ;
+
+        
+    
+    
+            var marker_ba20c1755ba4bab18ed6bb59c3f119b6 = L.marker(
+                [18.20483, -63.055],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9651044c9df666af442ef5578039c902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38d504b874baa36ba9a40f4bcc28ecb4 = $(`<div id="html_38d504b874baa36ba9a40f4bcc28ecb4" style="width: 100.0%; height: 100.0%;">The Valley Clayton J. Lloyd International Airport</div>`)[0];
+                popup_9651044c9df666af442ef5578039c902.setContent(html_38d504b874baa36ba9a40f4bcc28ecb4);
+            
+        
+
+        marker_ba20c1755ba4bab18ed6bb59c3f119b6.bindPopup(popup_9651044c9df666af442ef5578039c902)
+        ;
+
+        
+    
+    
+            var marker_c80b69ac94ff516675161764683e15e9 = L.marker(
+                [17.13674, -61.792599],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8de600ad7b753777e05d82220642b226 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76900b6241aa76acfb4e9bdffa0e96be = $(`<div id="html_76900b6241aa76acfb4e9bdffa0e96be" style="width: 100.0%; height: 100.0%;">Antigua V. C. Bird International Airport</div>`)[0];
+                popup_8de600ad7b753777e05d82220642b226.setContent(html_76900b6241aa76acfb4e9bdffa0e96be);
+            
+        
+
+        marker_c80b69ac94ff516675161764683e15e9.bindPopup(popup_8de600ad7b753777e05d82220642b226)
+        ;
+
+        
+    
+    
+            var marker_7bde15bcb98ddf2262d9c10fbfa6cee0 = L.marker(
+                [-34.822201, -58.535801],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c90e9c9dd36b4f0a4cc2524dfed0d939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a80835f9191a147bb2f2ba222826a074 = $(`<div id="html_a80835f9191a147bb2f2ba222826a074" style="width: 100.0%; height: 100.0%;">Buenos Aires Ministro Pistarini International Airport</div>`)[0];
+                popup_c90e9c9dd36b4f0a4cc2524dfed0d939.setContent(html_a80835f9191a147bb2f2ba222826a074);
+            
+        
+
+        marker_7bde15bcb98ddf2262d9c10fbfa6cee0.bindPopup(popup_c90e9c9dd36b4f0a4cc2524dfed0d939)
+        ;
+
+        
+    
+    
+            var marker_725b0ea8de9f982bc14538ade9e906f5 = L.marker(
+                [40.14727, 44.395882],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_784a23f5ff260b7e009d2bc5a6fad49e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99a9217630f6ef733c45af95963c8c7c = $(`<div id="html_99a9217630f6ef733c45af95963c8c7c" style="width: 100.0%; height: 100.0%;">Yerevan Zvartnots International Airport</div>`)[0];
+                popup_784a23f5ff260b7e009d2bc5a6fad49e.setContent(html_99a9217630f6ef733c45af95963c8c7c);
+            
+        
+
+        marker_725b0ea8de9f982bc14538ade9e906f5.bindPopup(popup_784a23f5ff260b7e009d2bc5a6fad49e)
+        ;
+
+        
+    
+    
+            var marker_fa6f60a5385322112129afc4709f1c18 = L.marker(
+                [12.50138, -70.015198],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_a41497b3edf350cd5b3a9aa73ae2e01f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd32951b8d9c61d08f4c1e126f567883 = $(`<div id="html_dd32951b8d9c61d08f4c1e126f567883" style="width: 100.0%; height: 100.0%;">Oranjestad Queen Beatrix International Airport</div>`)[0];
+                popup_a41497b3edf350cd5b3a9aa73ae2e01f.setContent(html_dd32951b8d9c61d08f4c1e126f567883);
+            
+        
+
+        marker_fa6f60a5385322112129afc4709f1c18.bindPopup(popup_a41497b3edf350cd5b3a9aa73ae2e01f)
+        ;
+
+        
+    
+    
+            var marker_692441449d738dc86d6a8b871be80c1e = L.marker(
+                [-33.946098, 151.1772],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_79db41b1455556670cfc02df1b55d019 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c6064c4e284dbcc2d5a756eb6b6ce57 = $(`<div id="html_3c6064c4e284dbcc2d5a756eb6b6ce57" style="width: 100.0%; height: 100.0%;">Sydney Kingsford Smith Airport</div>`)[0];
+                popup_79db41b1455556670cfc02df1b55d019.setContent(html_3c6064c4e284dbcc2d5a756eb6b6ce57);
+            
+        
+
+        marker_692441449d738dc86d6a8b871be80c1e.bindPopup(popup_79db41b1455556670cfc02df1b55d019)
+        ;
+
+        
+    
+    
+            var marker_f478a34395cd4d9e20087bb23f58b96b = L.marker(
+                [48.110271, 16.569719],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_dc28612346443c7207fbdf4d53416d41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd99809b7edc24a7f1c68a9b4054e910 = $(`<div id="html_fd99809b7edc24a7f1c68a9b4054e910" style="width: 100.0%; height: 100.0%;">Vienna International Airport</div>`)[0];
+                popup_dc28612346443c7207fbdf4d53416d41.setContent(html_fd99809b7edc24a7f1c68a9b4054e910);
+            
+        
+
+        marker_f478a34395cd4d9e20087bb23f58b96b.bindPopup(popup_dc28612346443c7207fbdf4d53416d41)
+        ;
+
+        
+    
+    
+            var marker_07d0c2c5ed923876cd36efe0f73e5153 = L.marker(
+                [40.467499, 50.046661],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0311e3b3c800afca47125de3367e71e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d040ac4cba17ed05c85ae009b580f9c = $(`<div id="html_0d040ac4cba17ed05c85ae009b580f9c" style="width: 100.0%; height: 100.0%;">Baku Heydar Aliyev International Airport</div>`)[0];
+                popup_0311e3b3c800afca47125de3367e71e1.setContent(html_0d040ac4cba17ed05c85ae009b580f9c);
+            
+        
+
+        marker_07d0c2c5ed923876cd36efe0f73e5153.bindPopup(popup_0311e3b3c800afca47125de3367e71e1)
+        ;
+
+        
+    
+    
+            var marker_dbc21f0b8fc013a8a850b7675f88b125 = L.marker(
+                [25.03895, -77.466202],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_12edea1ac2287960f294afd6fa830c35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d55b9c744f86eaeaf856377ff81d42b0 = $(`<div id="html_d55b9c744f86eaeaf856377ff81d42b0" style="width: 100.0%; height: 100.0%;">Nassau Lynden Pindling International Airport</div>`)[0];
+                popup_12edea1ac2287960f294afd6fa830c35.setContent(html_d55b9c744f86eaeaf856377ff81d42b0);
+            
+        
+
+        marker_dbc21f0b8fc013a8a850b7675f88b125.bindPopup(popup_12edea1ac2287960f294afd6fa830c35)
+        ;
+
+        
+    
+    
+            var marker_93adc86cf93719e79beb3ae592bed74b = L.marker(
+                [26.27083, 50.63361],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_2b5657e758ad95b74ec1b87cfc786e9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f13d524f0548155e1952c12db489f25 = $(`<div id="html_2f13d524f0548155e1952c12db489f25" style="width: 100.0%; height: 100.0%;">Bahrain International Airport</div>`)[0];
+                popup_2b5657e758ad95b74ec1b87cfc786e9d.setContent(html_2f13d524f0548155e1952c12db489f25);
+            
+        
+
+        marker_93adc86cf93719e79beb3ae592bed74b.bindPopup(popup_2b5657e758ad95b74ec1b87cfc786e9d)
+        ;
+
+        
+    
+    
+            var marker_8492c2dd9415a2084cae7a7fe73e6eda = L.marker(
+                [23.84333, 90.397781],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_00b8d4dc6c2be12b176ec782ef5fef6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c75b4101eec43745344e7df5a950eb = $(`<div id="html_40c75b4101eec43745344e7df5a950eb" style="width: 100.0%; height: 100.0%;">Dhaka Shahjalal International Airport</div>`)[0];
+                popup_00b8d4dc6c2be12b176ec782ef5fef6d.setContent(html_40c75b4101eec43745344e7df5a950eb);
+            
+        
+
+        marker_8492c2dd9415a2084cae7a7fe73e6eda.bindPopup(popup_00b8d4dc6c2be12b176ec782ef5fef6d)
+        ;
+
+        
+    
+    
+            var marker_b8c7a5066565f1798ef97bd9293a6e3c = L.marker(
+                [13.0746, -59.492401],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_98d4b73b0b34d976bbeca27dd0e06d0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_021e936610dd22dc06f0b0ea22e3953f = $(`<div id="html_021e936610dd22dc06f0b0ea22e3953f" style="width: 100.0%; height: 100.0%;">Bridgetown Grantley Adams International Airport</div>`)[0];
+                popup_98d4b73b0b34d976bbeca27dd0e06d0c.setContent(html_021e936610dd22dc06f0b0ea22e3953f);
+            
+        
+
+        marker_b8c7a5066565f1798ef97bd9293a6e3c.bindPopup(popup_98d4b73b0b34d976bbeca27dd0e06d0c)
+        ;
+
+        
+    
+    
+            var marker_564f3875d15dcd8bf278cc8bced494c4 = L.marker(
+                [53.882462, 28.030729],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e8b5ed62ac60f38af8fe74bb11ff9425 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80fd385c76ab9e1f18f56bf2406c3aa0 = $(`<div id="html_80fd385c76ab9e1f18f56bf2406c3aa0" style="width: 100.0%; height: 100.0%;">Minsk National Airport</div>`)[0];
+                popup_e8b5ed62ac60f38af8fe74bb11ff9425.setContent(html_80fd385c76ab9e1f18f56bf2406c3aa0);
+            
+        
+
+        marker_564f3875d15dcd8bf278cc8bced494c4.bindPopup(popup_e8b5ed62ac60f38af8fe74bb11ff9425)
+        ;
+
+        
+    
+    
+            var marker_feeba0db1c897192b27aea8f74342b2b = L.marker(
+                [50.901379, 4.484444],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c460d3d727975ea8141331b5f2d9eb59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b966c04ebb1913d4992dedd8f590882 = $(`<div id="html_6b966c04ebb1913d4992dedd8f590882" style="width: 100.0%; height: 100.0%;">Brussels Airport</div>`)[0];
+                popup_c460d3d727975ea8141331b5f2d9eb59.setContent(html_6b966c04ebb1913d4992dedd8f590882);
+            
+        
+
+        marker_feeba0db1c897192b27aea8f74342b2b.bindPopup(popup_c460d3d727975ea8141331b5f2d9eb59)
+        ;
+
+        
+    
+    
+            var marker_637b5383910192c198cc78a4fd8fe25b = L.marker(
+                [17.539141, -88.308197],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8d921838105d29b73fff75fd5e530703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16c13e0caa4e5f679cdcd5a1c498da7e = $(`<div id="html_16c13e0caa4e5f679cdcd5a1c498da7e" style="width: 100.0%; height: 100.0%;">Belize City Philip S. W. Goldson International Airport</div>`)[0];
+                popup_8d921838105d29b73fff75fd5e530703.setContent(html_16c13e0caa4e5f679cdcd5a1c498da7e);
+            
+        
+
+        marker_637b5383910192c198cc78a4fd8fe25b.bindPopup(popup_8d921838105d29b73fff75fd5e530703)
+        ;
+
+        
+    
+    
+            var marker_514d3724b86908f1998a345f145ccc1d = L.marker(
+                [6.357228, 2.384353],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_07db947bf8a3007c91cdd04a236fad31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aa5ee36807f27fb10883fc9cac13718 = $(`<div id="html_4aa5ee36807f27fb10883fc9cac13718" style="width: 100.0%; height: 100.0%;">Cotonou Cadjehoun Airport</div>`)[0];
+                popup_07db947bf8a3007c91cdd04a236fad31.setContent(html_4aa5ee36807f27fb10883fc9cac13718);
+            
+        
+
+        marker_514d3724b86908f1998a345f145ccc1d.bindPopup(popup_07db947bf8a3007c91cdd04a236fad31)
+        ;
+
+        
+    
+    
+            var marker_73c402a5e1913709bd1ca39290a5bcd8 = L.marker(
+                [32.36404, -64.678703],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5f4503eca418ef026b5fb30b01d0ff8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62a84678055af8548a945a6d47585a9 = $(`<div id="html_e62a84678055af8548a945a6d47585a9" style="width: 100.0%; height: 100.0%;">Bermuda L.F. Wade International Airport</div>`)[0];
+                popup_5f4503eca418ef026b5fb30b01d0ff8a.setContent(html_e62a84678055af8548a945a6d47585a9);
+            
+        
+
+        marker_73c402a5e1913709bd1ca39290a5bcd8.bindPopup(popup_5f4503eca418ef026b5fb30b01d0ff8a)
+        ;
+
+        
+    
+    
+            var marker_4dc0daf43e198aa4c7c82600de74b02c = L.marker(
+                [27.403191, 89.424599],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_94ffef76464ccaa99f022bff7f9e4e65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25091aac884baddef1d5f6f760312e12 = $(`<div id="html_25091aac884baddef1d5f6f760312e12" style="width: 100.0%; height: 100.0%;">Paro Airport</div>`)[0];
+                popup_94ffef76464ccaa99f022bff7f9e4e65.setContent(html_25091aac884baddef1d5f6f760312e12);
+            
+        
+
+        marker_4dc0daf43e198aa4c7c82600de74b02c.bindPopup(popup_94ffef76464ccaa99f022bff7f9e4e65)
+        ;
+
+        
+    
+    
+            var marker_bc7254977ecf636723e63c4430a698d1 = L.marker(
+                [-16.5133, -68.1922],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_a9967fc48121ca7e0ada250247f66862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a2da5bad6f84d707a0519ea9efaa281 = $(`<div id="html_7a2da5bad6f84d707a0519ea9efaa281" style="width: 100.0%; height: 100.0%;">La Paz El Alto International Airport</div>`)[0];
+                popup_a9967fc48121ca7e0ada250247f66862.setContent(html_7a2da5bad6f84d707a0519ea9efaa281);
+            
+        
+
+        marker_bc7254977ecf636723e63c4430a698d1.bindPopup(popup_a9967fc48121ca7e0ada250247f66862)
+        ;
+
+        
+    
+    
+            var marker_56d03b132b94df9c1cd99d6e0dd13655 = L.marker(
+                [43.824581, 18.331461],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_89151492fdc3c46bc1ed4f94fd2e4a8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e79e4fe059f109a38f8af3c24344c94 = $(`<div id="html_9e79e4fe059f109a38f8af3c24344c94" style="width: 100.0%; height: 100.0%;">Sarajevo International Airport</div>`)[0];
+                popup_89151492fdc3c46bc1ed4f94fd2e4a8e.setContent(html_9e79e4fe059f109a38f8af3c24344c94);
+            
+        
+
+        marker_56d03b132b94df9c1cd99d6e0dd13655.bindPopup(popup_89151492fdc3c46bc1ed4f94fd2e4a8e)
+        ;
+
+        
+    
+    
+            var marker_a0bfe5eef19827c82c7fdebde8b1ebf6 = L.marker(
+                [-24.555201, 25.9182],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_37f64dc0b9a266114d7a0bce90a70bad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709ad9437223d7b901d52f78454047ca = $(`<div id="html_709ad9437223d7b901d52f78454047ca" style="width: 100.0%; height: 100.0%;">Gaborone Sir Seretse Khama International Airport</div>`)[0];
+                popup_37f64dc0b9a266114d7a0bce90a70bad.setContent(html_709ad9437223d7b901d52f78454047ca);
+            
+        
+
+        marker_a0bfe5eef19827c82c7fdebde8b1ebf6.bindPopup(popup_37f64dc0b9a266114d7a0bce90a70bad)
+        ;
+
+        
+    
+    
+            var marker_180afe59e9f11d3c780313ba649e380b = L.marker(
+                [-23.431999, -46.469501],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b68f2a23e96587deb69b7ad9ad610a76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21a80806ab587ddabf2f6fc681c900f = $(`<div id="html_e21a80806ab587ddabf2f6fc681c900f" style="width: 100.0%; height: 100.0%;">Sao Paulo Guarulhos International Airport</div>`)[0];
+                popup_b68f2a23e96587deb69b7ad9ad610a76.setContent(html_e21a80806ab587ddabf2f6fc681c900f);
+            
+        
+
+        marker_180afe59e9f11d3c780313ba649e380b.bindPopup(popup_b68f2a23e96587deb69b7ad9ad610a76)
+        ;
+
+        
+    
+    
+            var marker_0f4d734b3e23bb0123fe7fd55567cb8d = L.marker(
+                [4.9442, 114.928299],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f1c2f60d46b63343516e8415e7083d87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58733a70faf464fa54b6a5cbf40359c0 = $(`<div id="html_58733a70faf464fa54b6a5cbf40359c0" style="width: 100.0%; height: 100.0%;">Brunei International Airport</div>`)[0];
+                popup_f1c2f60d46b63343516e8415e7083d87.setContent(html_58733a70faf464fa54b6a5cbf40359c0);
+            
+        
+
+        marker_0f4d734b3e23bb0123fe7fd55567cb8d.bindPopup(popup_f1c2f60d46b63343516e8415e7083d87)
+        ;
+
+        
+    
+    
+            var marker_a887d8b95fa86052117d82393d81ec41 = L.marker(
+                [42.69519, 23.40616],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_55c3afbbb6c687d329bf1863bf1bbe9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9683fdd592001768f526fd04e74137c4 = $(`<div id="html_9683fdd592001768f526fd04e74137c4" style="width: 100.0%; height: 100.0%;">Sofia Airport</div>`)[0];
+                popup_55c3afbbb6c687d329bf1863bf1bbe9b.setContent(html_9683fdd592001768f526fd04e74137c4);
+            
+        
+
+        marker_a887d8b95fa86052117d82393d81ec41.bindPopup(popup_55c3afbbb6c687d329bf1863bf1bbe9b)
+        ;
+
+        
+    
+    
+            var marker_957cf4e6f87cfee408d3e64c550c89c4 = L.marker(
+                [-3.32401, 29.31851],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_23331c5d3d73a530e7d6d763ecd9357f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a23d5c465901ce955c507922099cadd9 = $(`<div id="html_a23d5c465901ce955c507922099cadd9" style="width: 100.0%; height: 100.0%;">Bujumbura International Airport</div>`)[0];
+                popup_23331c5d3d73a530e7d6d763ecd9357f.setContent(html_a23d5c465901ce955c507922099cadd9);
+            
+        
+
+        marker_957cf4e6f87cfee408d3e64c550c89c4.bindPopup(popup_23331c5d3d73a530e7d6d763ecd9357f)
+        ;
+
+        
+    
+    
+            var marker_a8110d0c20c970b6862dd112293390cb = L.marker(
+                [13.41066, 103.812798],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c35404d0223d9c61f338c7f983b5edc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d3839f5c113305ec0b8bbf1650758f3 = $(`<div id="html_9d3839f5c113305ec0b8bbf1650758f3" style="width: 100.0%; height: 100.0%;">Siem Reap International Airport</div>`)[0];
+                popup_c35404d0223d9c61f338c7f983b5edc8.setContent(html_9d3839f5c113305ec0b8bbf1650758f3);
+            
+        
+
+        marker_a8110d0c20c970b6862dd112293390cb.bindPopup(popup_c35404d0223d9c61f338c7f983b5edc8)
+        ;
+
+        
+    
+    
+            var marker_1f3b2a3cc63bba307fadef4dbbb1db45 = L.marker(
+                [4.006081, 9.719481],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f72908a5d9f6f7b3c8aa5f7c8eaf2f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cf465b933986b2a6f9d1557ad74b4ef = $(`<div id="html_5cf465b933986b2a6f9d1557ad74b4ef" style="width: 100.0%; height: 100.0%;">Douala International Airport</div>`)[0];
+                popup_f72908a5d9f6f7b3c8aa5f7c8eaf2f53.setContent(html_5cf465b933986b2a6f9d1557ad74b4ef);
+            
+        
+
+        marker_1f3b2a3cc63bba307fadef4dbbb1db45.bindPopup(popup_f72908a5d9f6f7b3c8aa5f7c8eaf2f53)
+        ;
+
+        
+    
+    
+            var marker_5f2fd3751bacce7f331d21beb7ee3b47 = L.marker(
+                [43.680634, -79.627007],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1ffcabb9c97f216ead2156cfdd74f695 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58f3c8c6973509c163e4d59f59e908d6 = $(`<div id="html_58f3c8c6973509c163e4d59f59e908d6" style="width: 100.0%; height: 100.0%;">Toronto Pearson International Airport</div>`)[0];
+                popup_1ffcabb9c97f216ead2156cfdd74f695.setContent(html_58f3c8c6973509c163e4d59f59e908d6);
+            
+        
+
+        marker_5f2fd3751bacce7f331d21beb7ee3b47.bindPopup(popup_1ffcabb9c97f216ead2156cfdd74f695)
+        ;
+
+        
+    
+    
+            var marker_6a2b4dda8b00e19e84e2cfc80aaa0854 = L.marker(
+                [16.741381, -22.9494],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_2a6017d1fa0672acd3b446f50daa9e2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57d1b45d2baf61181e28047d4c37d86 = $(`<div id="html_e57d1b45d2baf61181e28047d4c37d86" style="width: 100.0%; height: 100.0%;">Espargos Amilcar Cabral International Airport</div>`)[0];
+                popup_2a6017d1fa0672acd3b446f50daa9e2e.setContent(html_e57d1b45d2baf61181e28047d4c37d86);
+            
+        
+
+        marker_6a2b4dda8b00e19e84e2cfc80aaa0854.bindPopup(popup_2a6017d1fa0672acd3b446f50daa9e2e)
+        ;
+
+        
+    
+    
+            var marker_e0bf994fe37b3716a264d3289ce03256 = L.marker(
+                [19.29277, -81.357697],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1f2a184f173c8bf9ae4a919cf14524b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ec038ae1d214c8f7ffe11fe94aef66d = $(`<div id="html_1ec038ae1d214c8f7ffe11fe94aef66d" style="width: 100.0%; height: 100.0%;">George Town Owen Roberts International Airport</div>`)[0];
+                popup_1f2a184f173c8bf9ae4a919cf14524b5.setContent(html_1ec038ae1d214c8f7ffe11fe94aef66d);
+            
+        
+
+        marker_e0bf994fe37b3716a264d3289ce03256.bindPopup(popup_1f2a184f173c8bf9ae4a919cf14524b5)
+        ;
+
+        
+    
+    
+            var marker_ed3898edd23773526ca9d5f2aad606ac = L.marker(
+                [4.398475, 18.51878],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5117313c98b8ef658ce2ee348728ee59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bcdbbf6733f9d1ac3ab2b534a362110 = $(`<div id="html_6bcdbbf6733f9d1ac3ab2b534a362110" style="width: 100.0%; height: 100.0%;">Bangui Airport</div>`)[0];
+                popup_5117313c98b8ef658ce2ee348728ee59.setContent(html_6bcdbbf6733f9d1ac3ab2b534a362110);
+            
+        
+
+        marker_ed3898edd23773526ca9d5f2aad606ac.bindPopup(popup_5117313c98b8ef658ce2ee348728ee59)
+        ;
+
+        
+    
+    
+            var marker_4891eecd5fe4850f12cf3a2cebc7e520 = L.marker(
+                [12.13368, 15.03401],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b609b67e4a3ea34eee618c6ef4e390b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97f87b20019c5f27bb314e881c8c8414 = $(`<div id="html_97f87b20019c5f27bb314e881c8c8414" style="width: 100.0%; height: 100.0%;">N'Djamena International Airport</div>`)[0];
+                popup_b609b67e4a3ea34eee618c6ef4e390b5.setContent(html_97f87b20019c5f27bb314e881c8c8414);
+            
+        
+
+        marker_4891eecd5fe4850f12cf3a2cebc7e520.bindPopup(popup_b609b67e4a3ea34eee618c6ef4e390b5)
+        ;
+
+        
+    
+    
+            var marker_555d5f5fa0fe0615c12b0710f2bd0bc9 = L.marker(
+                [-33.392899, -70.785797],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cc411ed4b4653ea299caff1b162e3a37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873824932981cb1e9432fdf8bc6a37d9 = $(`<div id="html_873824932981cb1e9432fdf8bc6a37d9" style="width: 100.0%; height: 100.0%;">Santiago International Airport</div>`)[0];
+                popup_cc411ed4b4653ea299caff1b162e3a37.setContent(html_873824932981cb1e9432fdf8bc6a37d9);
+            
+        
+
+        marker_555d5f5fa0fe0615c12b0710f2bd0bc9.bindPopup(popup_cc411ed4b4653ea299caff1b162e3a37)
+        ;
+
+        
+    
+    
+            var marker_193cf6288115f7bfa7b08d1575dfcfb0 = L.marker(
+                [40.084152, 116.592735],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8c7f27f2e848dd38b3e00f2a7ea5ab46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f0f022687d7609bba053b08dc192c8 = $(`<div id="html_06f0f022687d7609bba053b08dc192c8" style="width: 100.0%; height: 100.0%;">Beijing Capital International Airport</div>`)[0];
+                popup_8c7f27f2e848dd38b3e00f2a7ea5ab46.setContent(html_06f0f022687d7609bba053b08dc192c8);
+            
+        
+
+        marker_193cf6288115f7bfa7b08d1575dfcfb0.bindPopup(popup_8c7f27f2e848dd38b3e00f2a7ea5ab46)
+        ;
+
+        
+    
+    
+            var marker_93e5c3e51474bbd78ecf7a9bddb12f81 = L.marker(
+                [4.703056, -74.138298],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e54aa83126ad8f079cc179cbfcc75fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_427041d169a2bf527f9a128cf5d32dce = $(`<div id="html_427041d169a2bf527f9a128cf5d32dce" style="width: 100.0%; height: 100.0%;">Bogota El Dorado International Airport</div>`)[0];
+                popup_e54aa83126ad8f079cc179cbfcc75fa6.setContent(html_427041d169a2bf527f9a128cf5d32dce);
+            
+        
+
+        marker_93e5c3e51474bbd78ecf7a9bddb12f81.bindPopup(popup_e54aa83126ad8f079cc179cbfcc75fa6)
+        ;
+
+        
+    
+    
+            var marker_9db74c0344043734f1ecd2a979daee7b = L.marker(
+                [-4.81602, 11.88659],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_fe9c17e2aa396bcf17932e05630e3c1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f48a5b307d3639167033fb094eac7ab = $(`<div id="html_2f48a5b307d3639167033fb094eac7ab" style="width: 100.0%; height: 100.0%;">Pointe Noire Airport</div>`)[0];
+                popup_fe9c17e2aa396bcf17932e05630e3c1f.setContent(html_2f48a5b307d3639167033fb094eac7ab);
+            
+        
+
+        marker_9db74c0344043734f1ecd2a979daee7b.bindPopup(popup_fe9c17e2aa396bcf17932e05630e3c1f)
+        ;
+
+        
+    
+    
+            var marker_810956b9e83d02a192d255e36afd6c29 = L.marker(
+                [-21.2027, -159.804993],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cfd7942fe355a63326824246bff3e299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c71410ee200b095ccac7cc1c45bcbf9 = $(`<div id="html_3c71410ee200b095ccac7cc1c45bcbf9" style="width: 100.0%; height: 100.0%;">Avarua Rarotonga International Airport</div>`)[0];
+                popup_cfd7942fe355a63326824246bff3e299.setContent(html_3c71410ee200b095ccac7cc1c45bcbf9);
+            
+        
+
+        marker_810956b9e83d02a192d255e36afd6c29.bindPopup(popup_cfd7942fe355a63326824246bff3e299)
+        ;
+
+        
+    
+    
+            var marker_86a1b881749f5d3048544713ff56160f = L.marker(
+                [9.993903, -84.208801],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_a1833e74f0977180c13dfd228efaa3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dcfabb9dd3952532ab0be53b80ade61 = $(`<div id="html_6dcfabb9dd3952532ab0be53b80ade61" style="width: 100.0%; height: 100.0%;">San Jose Juan Santamaria International Airport</div>`)[0];
+                popup_a1833e74f0977180c13dfd228efaa3b7.setContent(html_6dcfabb9dd3952532ab0be53b80ade61);
+            
+        
+
+        marker_86a1b881749f5d3048544713ff56160f.bindPopup(popup_a1833e74f0977180c13dfd228efaa3b7)
+        ;
+
+        
+    
+    
+            var marker_030d2133998e557fe36a2d65c4d642ee = L.marker(
+                [5.261386, -3.92629],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_82eb6e6f8f3ec0cd60e463991b68e5b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751c90bb106fea32353df91a521bada6 = $(`<div id="html_751c90bb106fea32353df91a521bada6" style="width: 100.0%; height: 100.0%;">Abidjan Port Bouet Airport</div>`)[0];
+                popup_82eb6e6f8f3ec0cd60e463991b68e5b1.setContent(html_751c90bb106fea32353df91a521bada6);
+            
+        
+
+        marker_030d2133998e557fe36a2d65c4d642ee.bindPopup(popup_82eb6e6f8f3ec0cd60e463991b68e5b1)
+        ;
+
+        
+    
+    
+            var marker_8524e1a8c80b744b2a28f5046d0d175d = L.marker(
+                [45.742931, 16.068769],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_005f70c13a07f5d847855326dda2267b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80aed0e385a42a18afad4052023eb0ec = $(`<div id="html_80aed0e385a42a18afad4052023eb0ec" style="width: 100.0%; height: 100.0%;">Zagreb Franjo Tudman Airport</div>`)[0];
+                popup_005f70c13a07f5d847855326dda2267b.setContent(html_80aed0e385a42a18afad4052023eb0ec);
+            
+        
+
+        marker_8524e1a8c80b744b2a28f5046d0d175d.bindPopup(popup_005f70c13a07f5d847855326dda2267b)
+        ;
+
+        
+    
+    
+            var marker_4e650c297cec8cc58969d2cd56939c06 = L.marker(
+                [22.989149, -82.408997],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_a21d8589ca9f18b596ecfa021b7822b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc56f6c993dda57704bf168f841abdf0 = $(`<div id="html_bc56f6c993dda57704bf168f841abdf0" style="width: 100.0%; height: 100.0%;">Havana Jose Marti International Airport</div>`)[0];
+                popup_a21d8589ca9f18b596ecfa021b7822b7.setContent(html_bc56f6c993dda57704bf168f841abdf0);
+            
+        
+
+        marker_4e650c297cec8cc58969d2cd56939c06.bindPopup(popup_a21d8589ca9f18b596ecfa021b7822b7)
+        ;
+
+        
+    
+    
+            var marker_0479d61abe380b12edbb693ecb898154 = L.marker(
+                [12.18885, -68.959801],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_841e5945754f065389035fadf9bc9dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e44c5f3d6db8a5051a26e5bcd4466c4 = $(`<div id="html_6e44c5f3d6db8a5051a26e5bcd4466c4" style="width: 100.0%; height: 100.0%;">Willemstad Curacao Hato International Airport</div>`)[0];
+                popup_841e5945754f065389035fadf9bc9dad.setContent(html_6e44c5f3d6db8a5051a26e5bcd4466c4);
+            
+        
+
+        marker_0479d61abe380b12edbb693ecb898154.bindPopup(popup_841e5945754f065389035fadf9bc9dad)
+        ;
+
+        
+    
+    
+            var marker_d02e7817cd09b1c97ed80682d7ac2e4c = L.marker(
+                [34.875111, 33.624851],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7b0a076de47921a744d436ceb939a16d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ec707ed8526b5cf49718d2f5d0377a9 = $(`<div id="html_5ec707ed8526b5cf49718d2f5d0377a9" style="width: 100.0%; height: 100.0%;">Larnaca International Airport</div>`)[0];
+                popup_7b0a076de47921a744d436ceb939a16d.setContent(html_5ec707ed8526b5cf49718d2f5d0377a9);
+            
+        
+
+        marker_d02e7817cd09b1c97ed80682d7ac2e4c.bindPopup(popup_7b0a076de47921a744d436ceb939a16d)
+        ;
+
+        
+    
+    
+            var marker_a75c0dd352a382637b6448ca073cf172 = L.marker(
+                [50.10083, 14.26],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_500cad76e2b0b57d51481cf1fa8acadb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_249a1e96269e57e3b3bb33d506f178a2 = $(`<div id="html_249a1e96269e57e3b3bb33d506f178a2" style="width: 100.0%; height: 100.0%;">Prague Vaclav Havel Airport</div>`)[0];
+                popup_500cad76e2b0b57d51481cf1fa8acadb.setContent(html_249a1e96269e57e3b3bb33d506f178a2);
+            
+        
+
+        marker_a75c0dd352a382637b6448ca073cf172.bindPopup(popup_500cad76e2b0b57d51481cf1fa8acadb)
+        ;
+
+        
+    
+    
+            var marker_3841c7316b84af3bed1eabb246b02e78 = L.marker(
+                [-4.38575, 15.44456],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bb560e71704c42dd394c3e5a6c15e092 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49ca25fd4a506096a05d4cb13b1bcfd5 = $(`<div id="html_49ca25fd4a506096a05d4cb13b1bcfd5" style="width: 100.0%; height: 100.0%;">Kinshasa N'Djili Airport</div>`)[0];
+                popup_bb560e71704c42dd394c3e5a6c15e092.setContent(html_49ca25fd4a506096a05d4cb13b1bcfd5);
+            
+        
+
+        marker_3841c7316b84af3bed1eabb246b02e78.bindPopup(popup_bb560e71704c42dd394c3e5a6c15e092)
+        ;
+
+        
+    
+    
+            var marker_4ac37e360aee33e51b5d022e20f1a2ed = L.marker(
+                [55.616959, 12.645637],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c2b9b3bb2e9e6a763a761d4597e8fdd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffc56e777c13c1cf2e81a4af38f714dd = $(`<div id="html_ffc56e777c13c1cf2e81a4af38f714dd" style="width: 100.0%; height: 100.0%;">Copenhagen Airport</div>`)[0];
+                popup_c2b9b3bb2e9e6a763a761d4597e8fdd8.setContent(html_ffc56e777c13c1cf2e81a4af38f714dd);
+            
+        
+
+        marker_4ac37e360aee33e51b5d022e20f1a2ed.bindPopup(popup_c2b9b3bb2e9e6a763a761d4597e8fdd8)
+        ;
+
+        
+    
+    
+            var marker_4b453264283ef675934f7443bf4422bb = L.marker(
+                [11.54733, 43.159481],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8d32ecb6b66e6f2b7cd5c61cb4c3f649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d73d0cbc8d866b32b37d8c8f3e3c9100 = $(`<div id="html_d73d0cbc8d866b32b37d8c8f3e3c9100" style="width: 100.0%; height: 100.0%;">Djibouti Ambouli International Airport</div>`)[0];
+                popup_8d32ecb6b66e6f2b7cd5c61cb4c3f649.setContent(html_d73d0cbc8d866b32b37d8c8f3e3c9100);
+            
+        
+
+        marker_4b453264283ef675934f7443bf4422bb.bindPopup(popup_8d32ecb6b66e6f2b7cd5c61cb4c3f649)
+        ;
+
+        
+    
+    
+            var marker_d9e36fad9533df69c09a508505393cb2 = L.marker(
+                [18.56736, -68.363403],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_6f55b19332f001594b005e463e089a13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_969e029a293b0d0aafdd148853202d8d = $(`<div id="html_969e029a293b0d0aafdd148853202d8d" style="width: 100.0%; height: 100.0%;">Punta Cana International Airport</div>`)[0];
+                popup_6f55b19332f001594b005e463e089a13.setContent(html_969e029a293b0d0aafdd148853202d8d);
+            
+        
+
+        marker_d9e36fad9533df69c09a508505393cb2.bindPopup(popup_6f55b19332f001594b005e463e089a13)
+        ;
+
+        
+    
+    
+            var marker_4327a293e5502f0a7ef19287fe7bc801 = L.marker(
+                [-0.1133, -78.358597],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_685d7f3bc196a2363bf57b41af77076a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bda3de3ce4fe9410391f06fe77a7d6a8 = $(`<div id="html_bda3de3ce4fe9410391f06fe77a7d6a8" style="width: 100.0%; height: 100.0%;">Quito Mariscal Sucre International Airport</div>`)[0];
+                popup_685d7f3bc196a2363bf57b41af77076a.setContent(html_bda3de3ce4fe9410391f06fe77a7d6a8);
+            
+        
+
+        marker_4327a293e5502f0a7ef19287fe7bc801.bindPopup(popup_685d7f3bc196a2363bf57b41af77076a)
+        ;
+
+        
+    
+    
+            var marker_c5eed84694666cf4ba20fbc04dbc8106 = L.marker(
+                [27.17831, 33.799431],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7ad4b5563c0b57d40deaaebcfebc1626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7853b13aabfce2d91f402ccdfcc28a02 = $(`<div id="html_7853b13aabfce2d91f402ccdfcc28a02" style="width: 100.0%; height: 100.0%;">Hurghada International Airport</div>`)[0];
+                popup_7ad4b5563c0b57d40deaaebcfebc1626.setContent(html_7853b13aabfce2d91f402ccdfcc28a02);
+            
+        
+
+        marker_c5eed84694666cf4ba20fbc04dbc8106.bindPopup(popup_7ad4b5563c0b57d40deaaebcfebc1626)
+        ;
+
+        
+    
+    
+            var marker_7abe0ba544a6bc26a1a2593eccf52cfa = L.marker(
+                [13.44094, -89.055702],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e5c5051878f40c61459afb22a7e89759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d9394646fe5246fbcaa26d276b64c1b = $(`<div id="html_9d9394646fe5246fbcaa26d276b64c1b" style="width: 100.0%; height: 100.0%;">San Salvador International Airport</div>`)[0];
+                popup_e5c5051878f40c61459afb22a7e89759.setContent(html_9d9394646fe5246fbcaa26d276b64c1b);
+            
+        
+
+        marker_7abe0ba544a6bc26a1a2593eccf52cfa.bindPopup(popup_e5c5051878f40c61459afb22a7e89759)
+        ;
+
+        
+    
+    
+            var marker_f4ff72107ceff8dd145d7420400df0a1 = L.marker(
+                [15.29185, 38.91066],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_616b4dd30fbf230e7ac86e45c31863c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5497381d469a6c7d604509488f2789c4 = $(`<div id="html_5497381d469a6c7d604509488f2789c4" style="width: 100.0%; height: 100.0%;">Asmara International Airport</div>`)[0];
+                popup_616b4dd30fbf230e7ac86e45c31863c6.setContent(html_5497381d469a6c7d604509488f2789c4);
+            
+        
+
+        marker_f4ff72107ceff8dd145d7420400df0a1.bindPopup(popup_616b4dd30fbf230e7ac86e45c31863c6)
+        ;
+
+        
+    
+    
+            var marker_73e8f8a7080d4b3e616c46800033684b = L.marker(
+                [59.413311, 24.83284],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_ff13807f6c4104d131564d8322da0484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a84a358603ffcd85d765f83cbfc29dd9 = $(`<div id="html_a84a358603ffcd85d765f83cbfc29dd9" style="width: 100.0%; height: 100.0%;">Tallinn Lennart Meri Airport </div>`)[0];
+                popup_ff13807f6c4104d131564d8322da0484.setContent(html_a84a358603ffcd85d765f83cbfc29dd9);
+            
+        
+
+        marker_73e8f8a7080d4b3e616c46800033684b.bindPopup(popup_ff13807f6c4104d131564d8322da0484)
+        ;
+
+        
+    
+    
+            var marker_77a54568ea363029817b7c4e9fc98217 = L.marker(
+                [8.977889, 38.799309],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_19dd459887b13504621a496ca431893d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_394207dcd3377b5e2b35700aa148992f = $(`<div id="html_394207dcd3377b5e2b35700aa148992f" style="width: 100.0%; height: 100.0%;">Addis Ababa Bole Airport</div>`)[0];
+                popup_19dd459887b13504621a496ca431893d.setContent(html_394207dcd3377b5e2b35700aa148992f);
+            
+        
+
+        marker_77a54568ea363029817b7c4e9fc98217.bindPopup(popup_19dd459887b13504621a496ca431893d)
+        ;
+
+        
+    
+    
+            var marker_20fa89937667be12c52de1791b14bca1 = L.marker(
+                [-51.822701, -58.447201],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_03a9ed62b9a9a959470d5003d204cf40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62e72c44b4da0a9ceba5e2a33eedeeb9 = $(`<div id="html_62e72c44b4da0a9ceba5e2a33eedeeb9" style="width: 100.0%; height: 100.0%;">Mount Pleasant Airport</div>`)[0];
+                popup_03a9ed62b9a9a959470d5003d204cf40.setContent(html_62e72c44b4da0a9ceba5e2a33eedeeb9);
+            
+        
+
+        marker_20fa89937667be12c52de1791b14bca1.bindPopup(popup_03a9ed62b9a9a959470d5003d204cf40)
+        ;
+
+        
+    
+    
+            var marker_c4f9bcda75487441fcbe7399e40385a0 = L.marker(
+                [62.063622, -7.27721],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_2fac640bee0604f531a0f05ee62d9376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b631fcde01a9e78c834c4c9e50fb09 = $(`<div id="html_63b631fcde01a9e78c834c4c9e50fb09" style="width: 100.0%; height: 100.0%;">Vagar Airport</div>`)[0];
+                popup_2fac640bee0604f531a0f05ee62d9376.setContent(html_63b631fcde01a9e78c834c4c9e50fb09);
+            
+        
+
+        marker_c4f9bcda75487441fcbe7399e40385a0.bindPopup(popup_2fac640bee0604f531a0f05ee62d9376)
+        ;
+
+        
+    
+    
+            var marker_ac2adc492ef801dc267ffe0751c45ab1 = L.marker(
+                [-17.755301, 177.443298],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_a070029b6dd8ffdc4fedbc31a7dbb323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90c23bfbddcd65fc8179aa0ad6463d70 = $(`<div id="html_90c23bfbddcd65fc8179aa0ad6463d70" style="width: 100.0%; height: 100.0%;">Nadi International Airport</div>`)[0];
+                popup_a070029b6dd8ffdc4fedbc31a7dbb323.setContent(html_90c23bfbddcd65fc8179aa0ad6463d70);
+            
+        
+
+        marker_ac2adc492ef801dc267ffe0751c45ab1.bindPopup(popup_a070029b6dd8ffdc4fedbc31a7dbb323)
+        ;
+
+        
+    
+    
+            var marker_86fb8209939991339deeefb5e10d8b45 = L.marker(
+                [60.317219, 24.963329],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bc959e868f5ee4b3fe4dff237b31ca7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d0f685919193987d6b94ebada32933 = $(`<div id="html_c4d0f685919193987d6b94ebada32933" style="width: 100.0%; height: 100.0%;">Helsinki Vantaa Airport</div>`)[0];
+                popup_bc959e868f5ee4b3fe4dff237b31ca7d.setContent(html_c4d0f685919193987d6b94ebada32933);
+            
+        
+
+        marker_86fb8209939991339deeefb5e10d8b45.bindPopup(popup_bc959e868f5ee4b3fe4dff237b31ca7d)
+        ;
+
+        
+    
+    
+            var marker_706a5d1f7c55bc7e7ef8c964655189e2 = L.marker(
+                [49.012516, 2.555752],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f9ac10c25247ec729f4ea68a56edc80b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_402fb39e3c9de48244679df6a23c6e6c = $(`<div id="html_402fb39e3c9de48244679df6a23c6e6c" style="width: 100.0%; height: 100.0%;">Paris Charles de Gaulle Airport</div>`)[0];
+                popup_f9ac10c25247ec729f4ea68a56edc80b.setContent(html_402fb39e3c9de48244679df6a23c6e6c);
+            
+        
+
+        marker_706a5d1f7c55bc7e7ef8c964655189e2.bindPopup(popup_f9ac10c25247ec729f4ea68a56edc80b)
+        ;
+
+        
+    
+    
+            var marker_5b2f87e4067a037a205341f9003a1466 = L.marker(
+                [-17.556601, -149.610992],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7658faa62bb231ca6702e19f06ce7c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7eaf1a05455d96e41be206170f6568e = $(`<div id="html_a7eaf1a05455d96e41be206170f6568e" style="width: 100.0%; height: 100.0%;">Papeete Tahiti Faa'a International Airport</div>`)[0];
+                popup_7658faa62bb231ca6702e19f06ce7c3c.setContent(html_a7eaf1a05455d96e41be206170f6568e);
+            
+        
+
+        marker_5b2f87e4067a037a205341f9003a1466.bindPopup(popup_7658faa62bb231ca6702e19f06ce7c3c)
+        ;
+
+        
+    
+    
+            var marker_5297122d8201fd7fa4295a423b2c5eff = L.marker(
+                [0.4586, 9.412283],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_05d31e42489bd392d4f71fb1087d6890 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61e563ccd83c894bb8c5b257c6598375 = $(`<div id="html_61e563ccd83c894bb8c5b257c6598375" style="width: 100.0%; height: 100.0%;">Libreville International Airport</div>`)[0];
+                popup_05d31e42489bd392d4f71fb1087d6890.setContent(html_61e563ccd83c894bb8c5b257c6598375);
+            
+        
+
+        marker_5297122d8201fd7fa4295a423b2c5eff.bindPopup(popup_05d31e42489bd392d4f71fb1087d6890)
+        ;
+
+        
+    
+    
+            var marker_eccc6b9cfd9896fdddf7c76cb77ae4c8 = L.marker(
+                [13.33796, -16.652201],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_84987345d45d01ebc8c929cc45aa209a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc776bb5341fafeb6b97ddd78b6a9936 = $(`<div id="html_dc776bb5341fafeb6b97ddd78b6a9936" style="width: 100.0%; height: 100.0%;">Banjul International Airport</div>`)[0];
+                popup_84987345d45d01ebc8c929cc45aa209a.setContent(html_dc776bb5341fafeb6b97ddd78b6a9936);
+            
+        
+
+        marker_eccc6b9cfd9896fdddf7c76cb77ae4c8.bindPopup(popup_84987345d45d01ebc8c929cc45aa209a)
+        ;
+
+        
+    
+    
+            var marker_7f62090df06b8e2c21c5f367b01deb1a = L.marker(
+                [41.669159, 44.95472],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_729a5cfc132441cf787603400cd7d298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a37e903f691c4190c6d5775a1ceda7 = $(`<div id="html_02a37e903f691c4190c6d5775a1ceda7" style="width: 100.0%; height: 100.0%;">Tbilisi International Airport</div>`)[0];
+                popup_729a5cfc132441cf787603400cd7d298.setContent(html_02a37e903f691c4190c6d5775a1ceda7);
+            
+        
+
+        marker_7f62090df06b8e2c21c5f367b01deb1a.bindPopup(popup_729a5cfc132441cf787603400cd7d298)
+        ;
+
+        
+    
+    
+            var marker_10b9d51dd663925dcb141cd927e1337f = L.marker(
+                [50.037796, 8.555783],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f5303b1d71d17b1dd4502ce7ba248a48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_478f2943e4e30e601997e0dde6560080 = $(`<div id="html_478f2943e4e30e601997e0dde6560080" style="width: 100.0%; height: 100.0%;">Frankfurt Airport</div>`)[0];
+                popup_f5303b1d71d17b1dd4502ce7ba248a48.setContent(html_478f2943e4e30e601997e0dde6560080);
+            
+        
+
+        marker_10b9d51dd663925dcb141cd927e1337f.bindPopup(popup_f5303b1d71d17b1dd4502ce7ba248a48)
+        ;
+
+        
+    
+    
+            var marker_88d2bf77207acc68cd00384b6d6b1772 = L.marker(
+                [5.605186, -0.16678],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4366650dae399170439d8edd931b32b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0008cb4051488e25e7376846ac0d9fbb = $(`<div id="html_0008cb4051488e25e7376846ac0d9fbb" style="width: 100.0%; height: 100.0%;">Accra Kotoka International Airport</div>`)[0];
+                popup_4366650dae399170439d8edd931b32b6.setContent(html_0008cb4051488e25e7376846ac0d9fbb);
+            
+        
+
+        marker_88d2bf77207acc68cd00384b6d6b1772.bindPopup(popup_4366650dae399170439d8edd931b32b6)
+        ;
+
+        
+    
+    
+            var marker_4c45811fb3a1bd77b38e8ebbdb1420f3 = L.marker(
+                [36.151211, -5.34966],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_75911a22c9b14963cc5b2af5a2142c2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8508d642bb99c86db40d42b2e6c0bac8 = $(`<div id="html_8508d642bb99c86db40d42b2e6c0bac8" style="width: 100.0%; height: 100.0%;">Gibraltar Airport</div>`)[0];
+                popup_75911a22c9b14963cc5b2af5a2142c2a.setContent(html_8508d642bb99c86db40d42b2e6c0bac8);
+            
+        
+
+        marker_4c45811fb3a1bd77b38e8ebbdb1420f3.bindPopup(popup_75911a22c9b14963cc5b2af5a2142c2a)
+        ;
+
+        
+    
+    
+            var marker_d4571c402a7a45f3c6102400a5c55d30 = L.marker(
+                [37.936352, 23.94446],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9ec0d6ad18a5f41453bd1e9261b25429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c06c47708c8776aac5616d20c2a9a862 = $(`<div id="html_c06c47708c8776aac5616d20c2a9a862" style="width: 100.0%; height: 100.0%;">Athens Eleftherios Venizelos</div>`)[0];
+                popup_9ec0d6ad18a5f41453bd1e9261b25429.setContent(html_c06c47708c8776aac5616d20c2a9a862);
+            
+        
+
+        marker_d4571c402a7a45f3c6102400a5c55d30.bindPopup(popup_9ec0d6ad18a5f41453bd1e9261b25429)
+        ;
+
+        
+    
+    
+            var marker_9b474f718703e86969777d335046097f = L.marker(
+                [64.190918, -51.678001],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4c0f1cea8810ef63ea7bfc5b90ca35f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34dc8e4b6c3420235d861dc888a23ba3 = $(`<div id="html_34dc8e4b6c3420235d861dc888a23ba3" style="width: 100.0%; height: 100.0%;">Nuuk Airport</div>`)[0];
+                popup_4c0f1cea8810ef63ea7bfc5b90ca35f5.setContent(html_34dc8e4b6c3420235d861dc888a23ba3);
+            
+        
+
+        marker_9b474f718703e86969777d335046097f.bindPopup(popup_4c0f1cea8810ef63ea7bfc5b90ca35f5)
+        ;
+
+        
+    
+    
+            var marker_dc75929a75a236eb3b42a699c848afa4 = L.marker(
+                [12.00424, -61.786098],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_15f8b1951c9d0ff944837f2f2e07414a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db242a9662381c328e18e8fd3ba5bc9d = $(`<div id="html_db242a9662381c328e18e8fd3ba5bc9d" style="width: 100.0%; height: 100.0%;">Grenada Maurice Bishop International Airport</div>`)[0];
+                popup_15f8b1951c9d0ff944837f2f2e07414a.setContent(html_db242a9662381c328e18e8fd3ba5bc9d);
+            
+        
+
+        marker_dc75929a75a236eb3b42a699c848afa4.bindPopup(popup_15f8b1951c9d0ff944837f2f2e07414a)
+        ;
+
+        
+    
+    
+            var marker_ff05a91d84bf92e87a55ab7836eb1ad2 = L.marker(
+                [16.26416, -61.525799],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cced6e9429820d7cdd4528d3351243e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_095bf6b88b2f36d5ae2e674ec14341a7 = $(`<div id="html_095bf6b88b2f36d5ae2e674ec14341a7" style="width: 100.0%; height: 100.0%;">Pointe-a-Pitre International Airport</div>`)[0];
+                popup_cced6e9429820d7cdd4528d3351243e0.setContent(html_095bf6b88b2f36d5ae2e674ec14341a7);
+            
+        
+
+        marker_ff05a91d84bf92e87a55ab7836eb1ad2.bindPopup(popup_cced6e9429820d7cdd4528d3351243e0)
+        ;
+
+        
+    
+    
+            var marker_91ed2000ad1b106f88048c0e9a87eb2e = L.marker(
+                [13.48387, 144.797104],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d8244378d1288d96c3da958af120e528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95f4581814c5c82642948935bce624e2 = $(`<div id="html_95f4581814c5c82642948935bce624e2" style="width: 100.0%; height: 100.0%;">Guam Antonio B. Won Pat International Airport</div>`)[0];
+                popup_d8244378d1288d96c3da958af120e528.setContent(html_95f4581814c5c82642948935bce624e2);
+            
+        
+
+        marker_91ed2000ad1b106f88048c0e9a87eb2e.bindPopup(popup_d8244378d1288d96c3da958af120e528)
+        ;
+
+        
+    
+    
+            var marker_4d9ffa660f543515cbd54c4a8421451f = L.marker(
+                [14.58327, -90.527397],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1fbdbc1809e6cc4a23fb0a6bf919bff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3a5b47aa9fcc4d6194c4696b466f42 = $(`<div id="html_3b3a5b47aa9fcc4d6194c4696b466f42" style="width: 100.0%; height: 100.0%;">Guatemala City La Aurora International Airport</div>`)[0];
+                popup_1fbdbc1809e6cc4a23fb0a6bf919bff9.setContent(html_3b3a5b47aa9fcc4d6194c4696b466f42);
+            
+        
+
+        marker_4d9ffa660f543515cbd54c4a8421451f.bindPopup(popup_1fbdbc1809e6cc4a23fb0a6bf919bff9)
+        ;
+
+        
+    
+    
+            var marker_bb1433b358fd99dcc8c50dceecb720bb = L.marker(
+                [49.434952, -2.60196],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1442cefdc872bd0802592eb1093c30a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f43260f028349d6d386be5f8b61597f = $(`<div id="html_5f43260f028349d6d386be5f8b61597f" style="width: 100.0%; height: 100.0%;">Guernsey Airport</div>`)[0];
+                popup_1442cefdc872bd0802592eb1093c30a9.setContent(html_5f43260f028349d6d386be5f8b61597f);
+            
+        
+
+        marker_bb1433b358fd99dcc8c50dceecb720bb.bindPopup(popup_1442cefdc872bd0802592eb1093c30a9)
+        ;
+
+        
+    
+    
+            var marker_ee315ff0cfe5858fdb10f074e867eef1 = L.marker(
+                [6.498553, -58.254101],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_949761b1dd9a728d2750207c29019480 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf5d5ed292d718cf679880f1f7dad8e2 = $(`<div id="html_bf5d5ed292d718cf679880f1f7dad8e2" style="width: 100.0%; height: 100.0%;">Georgetown Cheddi Jagan International Airport</div>`)[0];
+                popup_949761b1dd9a728d2750207c29019480.setContent(html_bf5d5ed292d718cf679880f1f7dad8e2);
+            
+        
+
+        marker_ee315ff0cfe5858fdb10f074e867eef1.bindPopup(popup_949761b1dd9a728d2750207c29019480)
+        ;
+
+        
+    
+    
+            var marker_de0bd6e7d44161a208f59bb48ad3aa8f = L.marker(
+                [14.3824, -87.621201],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bd5efaf298bde622b6aaa0c73fc6568b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_557826ac5445dd68f2737fe3bb5afeaf = $(`<div id="html_557826ac5445dd68f2737fe3bb5afeaf" style="width: 100.0%; height: 100.0%;">Comayagua Palmerola International Airport</div>`)[0];
+                popup_bd5efaf298bde622b6aaa0c73fc6568b.setContent(html_557826ac5445dd68f2737fe3bb5afeaf);
+            
+        
+
+        marker_de0bd6e7d44161a208f59bb48ad3aa8f.bindPopup(popup_bd5efaf298bde622b6aaa0c73fc6568b)
+        ;
+
+        
+    
+    
+            var marker_4febeb95a3a9b4d5deeca46c69538c60 = L.marker(
+                [22.309616, 113.916237],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_69c6cf77c1ee4d6bdedd4914d0d2dd84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec2fad6693239b4b2c4c7c4ad2d2b5d = $(`<div id="html_eec2fad6693239b4b2c4c7c4ad2d2b5d" style="width: 100.0%; height: 100.0%;">Hong Kong International Airport</div>`)[0];
+                popup_69c6cf77c1ee4d6bdedd4914d0d2dd84.setContent(html_eec2fad6693239b4b2c4c7c4ad2d2b5d);
+            
+        
+
+        marker_4febeb95a3a9b4d5deeca46c69538c60.bindPopup(popup_69c6cf77c1ee4d6bdedd4914d0d2dd84)
+        ;
+
+        
+    
+    
+            var marker_ced42e1721aa8cebfeb7853405a8c6b7 = L.marker(
+                [47.436932, 19.25559],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_358a59e79b927e1b06d7d3a6834aa2e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44337242fa6c0239a3deb8fb71f43dda = $(`<div id="html_44337242fa6c0239a3deb8fb71f43dda" style="width: 100.0%; height: 100.0%;">Budapest Ferenc Liszt International Airport</div>`)[0];
+                popup_358a59e79b927e1b06d7d3a6834aa2e1.setContent(html_44337242fa6c0239a3deb8fb71f43dda);
+            
+        
+
+        marker_ced42e1721aa8cebfeb7853405a8c6b7.bindPopup(popup_358a59e79b927e1b06d7d3a6834aa2e1)
+        ;
+
+        
+    
+    
+            var marker_7c7710060861da6366026a3faf1ba8f0 = L.marker(
+                [63.985001, -22.605499],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b26a307ea3df0b43b6b91197fde52939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc5a74b7b0182a4fb31b656fa483d8ef = $(`<div id="html_dc5a74b7b0182a4fb31b656fa483d8ef" style="width: 100.0%; height: 100.0%;">Keflavik International Airport</div>`)[0];
+                popup_b26a307ea3df0b43b6b91197fde52939.setContent(html_dc5a74b7b0182a4fb31b656fa483d8ef);
+            
+        
+
+        marker_7c7710060861da6366026a3faf1ba8f0.bindPopup(popup_b26a307ea3df0b43b6b91197fde52939)
+        ;
+
+        
+    
+    
+            var marker_5c00e5623ac43d75ac55cf9a68fd1512 = L.marker(
+                [19.08868, 72.867912],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b4f8e0f2077842c2f554b75407c09bee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_371bba18b23d558e7db3a884fd40aab9 = $(`<div id="html_371bba18b23d558e7db3a884fd40aab9" style="width: 100.0%; height: 100.0%;">Mumbai Chhatrapati Shivaji International Airport</div>`)[0];
+                popup_b4f8e0f2077842c2f554b75407c09bee.setContent(html_371bba18b23d558e7db3a884fd40aab9);
+            
+        
+
+        marker_5c00e5623ac43d75ac55cf9a68fd1512.bindPopup(popup_b4f8e0f2077842c2f554b75407c09bee)
+        ;
+
+        
+    
+    
+            var marker_a84810c0aa1c0ae617672a9048b5a786 = L.marker(
+                [-6.12556, 106.6558],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_83a84894a05c1f3465ba159a19977c72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09063826815337d6ec7d323a43b7a06f = $(`<div id="html_09063826815337d6ec7d323a43b7a06f" style="width: 100.0%; height: 100.0%;">Jakarta Soekarno Hatta International Airport</div>`)[0];
+                popup_83a84894a05c1f3465ba159a19977c72.setContent(html_09063826815337d6ec7d323a43b7a06f);
+            
+        
+
+        marker_a84810c0aa1c0ae617672a9048b5a786.bindPopup(popup_83a84894a05c1f3465ba159a19977c72)
+        ;
+
+        
+    
+    
+            var marker_637b5ed5f09d31ac90a628f71bf45e7f = L.marker(
+                [35.416111, 51.152222],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_83b24ef268895fb7b8efdc941129f341 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a1c4cd62c104d361dbab03d22bff692 = $(`<div id="html_6a1c4cd62c104d361dbab03d22bff692" style="width: 100.0%; height: 100.0%;">Tehran Imam Khomeini International Airport</div>`)[0];
+                popup_83b24ef268895fb7b8efdc941129f341.setContent(html_6a1c4cd62c104d361dbab03d22bff692);
+            
+        
+
+        marker_637b5ed5f09d31ac90a628f71bf45e7f.bindPopup(popup_83b24ef268895fb7b8efdc941129f341)
+        ;
+
+        
+    
+    
+            var marker_8fe6d419b941af8756bcfa1668e2a7c1 = L.marker(
+                [33.262501, 44.234444],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_dd83fae948680b01703851858184b616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_debbc24922fe59f042f4d7df3e2c48be = $(`<div id="html_debbc24922fe59f042f4d7df3e2c48be" style="width: 100.0%; height: 100.0%;">Baghdad International Airport</div>`)[0];
+                popup_dd83fae948680b01703851858184b616.setContent(html_debbc24922fe59f042f4d7df3e2c48be);
+            
+        
+
+        marker_8fe6d419b941af8756bcfa1668e2a7c1.bindPopup(popup_dd83fae948680b01703851858184b616)
+        ;
+
+        
+    
+    
+            var marker_ed744d3c74667801f242122877bb7b1d = L.marker(
+                [53.421379, -6.27],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7c9a1346db2ea04e3547fc58ef2aa716 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebe709d8b216646a504b987a591d8d9a = $(`<div id="html_ebe709d8b216646a504b987a591d8d9a" style="width: 100.0%; height: 100.0%;">Dublin Airport</div>`)[0];
+                popup_7c9a1346db2ea04e3547fc58ef2aa716.setContent(html_ebe709d8b216646a504b987a591d8d9a);
+            
+        
+
+        marker_ed744d3c74667801f242122877bb7b1d.bindPopup(popup_7c9a1346db2ea04e3547fc58ef2aa716)
+        ;
+
+        
+    
+    
+            var marker_a8933df9ead1f148a096646c1b80395d = L.marker(
+                [54.083328, -4.62388],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e4367a4de4a5310b57216b73c8a7ee2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5fd8b9fa040cccff86d77cc7d717fbd = $(`<div id="html_a5fd8b9fa040cccff86d77cc7d717fbd" style="width: 100.0%; height: 100.0%;">Isle of Man Airport</div>`)[0];
+                popup_e4367a4de4a5310b57216b73c8a7ee2f.setContent(html_a5fd8b9fa040cccff86d77cc7d717fbd);
+            
+        
+
+        marker_a8933df9ead1f148a096646c1b80395d.bindPopup(popup_e4367a4de4a5310b57216b73c8a7ee2f)
+        ;
+
+        
+    
+    
+            var marker_e56303d1c9a9169248eecacf831c291e = L.marker(
+                [32.011379, 34.886662],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9fab3cec5ef6628ca595395fc5be3114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_581e4c50c296e79caa512e734d964e7b = $(`<div id="html_581e4c50c296e79caa512e734d964e7b" style="width: 100.0%; height: 100.0%;">Tel Aviv Ben Gurion International Airport</div>`)[0];
+                popup_9fab3cec5ef6628ca595395fc5be3114.setContent(html_581e4c50c296e79caa512e734d964e7b);
+            
+        
+
+        marker_e56303d1c9a9169248eecacf831c291e.bindPopup(popup_9fab3cec5ef6628ca595395fc5be3114)
+        ;
+
+        
+    
+    
+            var marker_4f2424229f0bce04ea485e0b33d26ac4 = L.marker(
+                [41.80447, 12.25079],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_fa5bbb7d2c4fe7278ed244fa00fbeb47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66df0cbcc7500e2f9a1554b1315319ad = $(`<div id="html_66df0cbcc7500e2f9a1554b1315319ad" style="width: 100.0%; height: 100.0%;">Rome Leonardo da Vinci Fiumicino Airport</div>`)[0];
+                popup_fa5bbb7d2c4fe7278ed244fa00fbeb47.setContent(html_66df0cbcc7500e2f9a1554b1315319ad);
+            
+        
+
+        marker_4f2424229f0bce04ea485e0b33d26ac4.bindPopup(popup_fa5bbb7d2c4fe7278ed244fa00fbeb47)
+        ;
+
+        
+    
+    
+            var marker_a06da55296513825ef2d427f4f8e69bf = L.marker(
+                [18.50371, -77.9133],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_3c4bcc451729e7a95841ca5a29964b80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5fc0fbf4fda6008d8dd3bb997bfc6c4 = $(`<div id="html_c5fc0fbf4fda6008d8dd3bb997bfc6c4" style="width: 100.0%; height: 100.0%;">Montego Bay Sangster International Airport</div>`)[0];
+                popup_3c4bcc451729e7a95841ca5a29964b80.setContent(html_c5fc0fbf4fda6008d8dd3bb997bfc6c4);
+            
+        
+
+        marker_a06da55296513825ef2d427f4f8e69bf.bindPopup(popup_3c4bcc451729e7a95841ca5a29964b80)
+        ;
+
+        
+    
+    
+            var marker_dc89030af8ae9b64c771286083117f5a = L.marker(
+                [35.764721, 140.386307],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_37db5001936e84306bfd996f4e1b133a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f65b4ae9db4e62d07b3783432cac3611 = $(`<div id="html_f65b4ae9db4e62d07b3783432cac3611" style="width: 100.0%; height: 100.0%;">Tokyo Narita International Airport</div>`)[0];
+                popup_37db5001936e84306bfd996f4e1b133a.setContent(html_f65b4ae9db4e62d07b3783432cac3611);
+            
+        
+
+        marker_dc89030af8ae9b64c771286083117f5a.bindPopup(popup_37db5001936e84306bfd996f4e1b133a)
+        ;
+
+        
+    
+    
+            var marker_4e2e78de0cc0b4629d1dd96218d9b8dd = L.marker(
+                [49.207939, -2.1955],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_53ed670637b87229df72c0867cb08a47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34027edfeb980d745523cf267d55aae6 = $(`<div id="html_34027edfeb980d745523cf267d55aae6" style="width: 100.0%; height: 100.0%;">Jersey Airport</div>`)[0];
+                popup_53ed670637b87229df72c0867cb08a47.setContent(html_34027edfeb980d745523cf267d55aae6);
+            
+        
+
+        marker_4e2e78de0cc0b4629d1dd96218d9b8dd.bindPopup(popup_53ed670637b87229df72c0867cb08a47)
+        ;
+
+        
+    
+    
+            var marker_da25766a75f3f86bc031e502bef89219 = L.marker(
+                [31.722549, 35.99321],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8bf3b73df382b051ec589a347252c025 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5843d7c9ef15d58c7aa7ab97a5ed1dfd = $(`<div id="html_5843d7c9ef15d58c7aa7ab97a5ed1dfd" style="width: 100.0%; height: 100.0%;">Amman Queen Alia International Airport</div>`)[0];
+                popup_8bf3b73df382b051ec589a347252c025.setContent(html_5843d7c9ef15d58c7aa7ab97a5ed1dfd);
+            
+        
+
+        marker_da25766a75f3f86bc031e502bef89219.bindPopup(popup_8bf3b73df382b051ec589a347252c025)
+        ;
+
+        
+    
+    
+            var marker_74abf025b1fe97f9ddb57b1ca33582d6 = L.marker(
+                [43.35207, 77.040497],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9c642e07491b71e2aebffbefeccf138e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8519bebc6d6e0027817709af1a58fe5 = $(`<div id="html_a8519bebc6d6e0027817709af1a58fe5" style="width: 100.0%; height: 100.0%;">Almaty International Airport</div>`)[0];
+                popup_9c642e07491b71e2aebffbefeccf138e.setContent(html_a8519bebc6d6e0027817709af1a58fe5);
+            
+        
+
+        marker_74abf025b1fe97f9ddb57b1ca33582d6.bindPopup(popup_9c642e07491b71e2aebffbefeccf138e)
+        ;
+
+        
+    
+    
+            var marker_45a927a74e1484de222fecb904c327b5 = L.marker(
+                [-1.31924, 36.927769],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_3ba00f3cee23e91d6921b603630fb469 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d2a367af1dec23af711bdee95892677 = $(`<div id="html_0d2a367af1dec23af711bdee95892677" style="width: 100.0%; height: 100.0%;">Nairobi Jomo Kenyatta International Airport</div>`)[0];
+                popup_3ba00f3cee23e91d6921b603630fb469.setContent(html_0d2a367af1dec23af711bdee95892677);
+            
+        
+
+        marker_45a927a74e1484de222fecb904c327b5.bindPopup(popup_3ba00f3cee23e91d6921b603630fb469)
+        ;
+
+        
+    
+    
+            var marker_28b68d22ddfe173621fd7c6a96ba3119 = L.marker(
+                [42.572769, 21.03583],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_6adcb4f2d79e8820cd75715294ef4150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7b53b1287b2372a0c27d6837d2bdbaf = $(`<div id="html_e7b53b1287b2372a0c27d6837d2bdbaf" style="width: 100.0%; height: 100.0%;">Pristina Adem Jashari International Airport</div>`)[0];
+                popup_6adcb4f2d79e8820cd75715294ef4150.setContent(html_e7b53b1287b2372a0c27d6837d2bdbaf);
+            
+        
+
+        marker_28b68d22ddfe173621fd7c6a96ba3119.bindPopup(popup_6adcb4f2d79e8820cd75715294ef4150)
+        ;
+
+        
+    
+    
+            var marker_1c0951a824ebe37e19417b66aaaba6fb = L.marker(
+                [29.226561, 47.968922],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0b9d0ba2c33172ed922f67a7b7ec98b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc85cfe784e025a62c0f60e99b52ed3 = $(`<div id="html_8cc85cfe784e025a62c0f60e99b52ed3" style="width: 100.0%; height: 100.0%;">Kuwait International Airport</div>`)[0];
+                popup_0b9d0ba2c33172ed922f67a7b7ec98b1.setContent(html_8cc85cfe784e025a62c0f60e99b52ed3);
+            
+        
+
+        marker_1c0951a824ebe37e19417b66aaaba6fb.bindPopup(popup_0b9d0ba2c33172ed922f67a7b7ec98b1)
+        ;
+
+        
+    
+    
+            var marker_14ae5a8566ac63152be25eee0599d4d9 = L.marker(
+                [43.061298, 74.477547],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e5a8ebd015e919cab1d7a94990f70e61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfd94fe46cc4ef966ab32dbe8edc9d93 = $(`<div id="html_dfd94fe46cc4ef966ab32dbe8edc9d93" style="width: 100.0%; height: 100.0%;">Bishkek Manas International Airport</div>`)[0];
+                popup_e5a8ebd015e919cab1d7a94990f70e61.setContent(html_dfd94fe46cc4ef966ab32dbe8edc9d93);
+            
+        
+
+        marker_14ae5a8566ac63152be25eee0599d4d9.bindPopup(popup_e5a8ebd015e919cab1d7a94990f70e61)
+        ;
+
+        
+    
+    
+            var marker_f29a1ce02fe468a10239c0fe88f2665f = L.marker(
+                [17.988319, 102.563202],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bfcfddfce5417ca90296650db919995a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82570f91530494295911b911b154bbb2 = $(`<div id="html_82570f91530494295911b911b154bbb2" style="width: 100.0%; height: 100.0%;">Vientiane Wattay International Airport</div>`)[0];
+                popup_bfcfddfce5417ca90296650db919995a.setContent(html_82570f91530494295911b911b154bbb2);
+            
+        
+
+        marker_f29a1ce02fe468a10239c0fe88f2665f.bindPopup(popup_bfcfddfce5417ca90296650db919995a)
+        ;
+
+        
+    
+    
+            var marker_798b4398a569fd5187aa584fb63cb459 = L.marker(
+                [56.923611, 23.971109],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_457a6642cf46cec6704f82710fcff54a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71cf33a1ff0a32c620369661419fb789 = $(`<div id="html_71cf33a1ff0a32c620369661419fb789" style="width: 100.0%; height: 100.0%;">Riga International Airport</div>`)[0];
+                popup_457a6642cf46cec6704f82710fcff54a.setContent(html_71cf33a1ff0a32c620369661419fb789);
+            
+        
+
+        marker_798b4398a569fd5187aa584fb63cb459.bindPopup(popup_457a6642cf46cec6704f82710fcff54a)
+        ;
+
+        
+    
+    
+            var marker_f8d26a8e0fda0cb533bf1242f6120f85 = L.marker(
+                [33.82093, 35.48838],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_418857a07ce00be350a8c7bfe168ff22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47c88b3bfdadd973433163719c25d0a6 = $(`<div id="html_47c88b3bfdadd973433163719c25d0a6" style="width: 100.0%; height: 100.0%;">Beirut Rafic Hariri International Airport</div>`)[0];
+                popup_418857a07ce00be350a8c7bfe168ff22.setContent(html_47c88b3bfdadd973433163719c25d0a6);
+            
+        
+
+        marker_f8d26a8e0fda0cb533bf1242f6120f85.bindPopup(popup_418857a07ce00be350a8c7bfe168ff22)
+        ;
+
+        
+    
+    
+            var marker_435865734d0bfcecb8acb9477775af8f = L.marker(
+                [32.325558, 15.059722],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b20d6e4d8c777eeb48c955bd42855603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21bd31b2c3d56a4e048e0f9d30b69de5 = $(`<div id="html_21bd31b2c3d56a4e048e0f9d30b69de5" style="width: 100.0%; height: 100.0%;">Misrata International Airport</div>`)[0];
+                popup_b20d6e4d8c777eeb48c955bd42855603.setContent(html_21bd31b2c3d56a4e048e0f9d30b69de5);
+            
+        
+
+        marker_435865734d0bfcecb8acb9477775af8f.bindPopup(popup_b20d6e4d8c777eeb48c955bd42855603)
+        ;
+
+        
+    
+    
+            var marker_068992a88d0208e0d9b39a174782a2b8 = L.marker(
+                [54.63707, 25.2878],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c8f0b9a35586f8fe55b19bbb799e66ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdd20ec14fa4015c1202ac8381dab8c8 = $(`<div id="html_bdd20ec14fa4015c1202ac8381dab8c8" style="width: 100.0%; height: 100.0%;">Vilnius International Airport</div>`)[0];
+                popup_c8f0b9a35586f8fe55b19bbb799e66ae.setContent(html_bdd20ec14fa4015c1202ac8381dab8c8);
+            
+        
+
+        marker_068992a88d0208e0d9b39a174782a2b8.bindPopup(popup_c8f0b9a35586f8fe55b19bbb799e66ae)
+        ;
+
+        
+    
+    
+            var marker_a54618212272405206c241e0a9c02601 = L.marker(
+                [49.623329, 6.204444],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_fd70f0393d0804bcef07a725ec88219c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25b5f71659ee993c7fbb1aba890bbd0e = $(`<div id="html_25b5f71659ee993c7fbb1aba890bbd0e" style="width: 100.0%; height: 100.0%;">Luxembourg Findel Airport</div>`)[0];
+                popup_fd70f0393d0804bcef07a725ec88219c.setContent(html_25b5f71659ee993c7fbb1aba890bbd0e);
+            
+        
+
+        marker_a54618212272405206c241e0a9c02601.bindPopup(popup_fd70f0393d0804bcef07a725ec88219c)
+        ;
+
+        
+    
+    
+            var marker_8fdf0e7446e87588b0b98fd18907bdb0 = L.marker(
+                [22.149549, 113.591499],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9757fb0d976f9a92c7186296ab793121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2ece043189e7752653bd2313721592c = $(`<div id="html_c2ece043189e7752653bd2313721592c" style="width: 100.0%; height: 100.0%;">Macau International Airport</div>`)[0];
+                popup_9757fb0d976f9a92c7186296ab793121.setContent(html_c2ece043189e7752653bd2313721592c);
+            
+        
+
+        marker_8fdf0e7446e87588b0b98fd18907bdb0.bindPopup(popup_9757fb0d976f9a92c7186296ab793121)
+        ;
+
+        
+    
+    
+            var marker_e6a8a4fd2281a25cdedabb466a8f8451 = L.marker(
+                [-13.312, 48.314819],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_02af20930d7b9ebc196f7abbe86e88e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb517fb6dbb78ffbeaa557d88a69d159 = $(`<div id="html_bb517fb6dbb78ffbeaa557d88a69d159" style="width: 100.0%; height: 100.0%;">Nosy Be Fascene Airport</div>`)[0];
+                popup_02af20930d7b9ebc196f7abbe86e88e9.setContent(html_bb517fb6dbb78ffbeaa557d88a69d159);
+            
+        
+
+        marker_e6a8a4fd2281a25cdedabb466a8f8451.bindPopup(popup_02af20930d7b9ebc196f7abbe86e88e9)
+        ;
+
+        
+    
+    
+            var marker_3c23d5a2dfe2fc2cdc078d9f3d3b1946 = L.marker(
+                [-13.7893, 33.780998],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5d073e548fdf3ae1f087fb326fba1735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49cd8b5014d1e3673185ab19dfdbdeea = $(`<div id="html_49cd8b5014d1e3673185ab19dfdbdeea" style="width: 100.0%; height: 100.0%;">Lilongwe International Airport</div>`)[0];
+                popup_5d073e548fdf3ae1f087fb326fba1735.setContent(html_49cd8b5014d1e3673185ab19dfdbdeea);
+            
+        
+
+        marker_3c23d5a2dfe2fc2cdc078d9f3d3b1946.bindPopup(popup_5d073e548fdf3ae1f087fb326fba1735)
+        ;
+
+        
+    
+    
+            var marker_c2143068e2985d4b9795ee51f98890c2 = L.marker(
+                [2.745578, 101.7099],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_13b82391d18815d3961fae314a2a2f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aed50465bdac6583620f5900e2497ff = $(`<div id="html_0aed50465bdac6583620f5900e2497ff" style="width: 100.0%; height: 100.0%;">Kuala Lumpur International Airport</div>`)[0];
+                popup_13b82391d18815d3961fae314a2a2f84.setContent(html_0aed50465bdac6583620f5900e2497ff);
+            
+        
+
+        marker_c2143068e2985d4b9795ee51f98890c2.bindPopup(popup_13b82391d18815d3961fae314a2a2f84)
+        ;
+
+        
+    
+    
+            var marker_66044c8735a6c46042ddccbcc34189e6 = L.marker(
+                [4.191833, 73.529121],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4e3eff1573e8d9e59d565ef3229f8d87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef9b2b5fa6e29145d57c29303b05db73 = $(`<div id="html_ef9b2b5fa6e29145d57c29303b05db73" style="width: 100.0%; height: 100.0%;">Male Velana International Airport</div>`)[0];
+                popup_4e3eff1573e8d9e59d565ef3229f8d87.setContent(html_ef9b2b5fa6e29145d57c29303b05db73);
+            
+        
+
+        marker_66044c8735a6c46042ddccbcc34189e6.bindPopup(popup_4e3eff1573e8d9e59d565ef3229f8d87)
+        ;
+
+        
+    
+    
+            var marker_e7d608c93f690c593e747af19986c29f = L.marker(
+                [35.857491, 14.4775],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_eabd1c946b9207e4b010dec490525495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c412f8db4b66111a2b8712f9885906a = $(`<div id="html_1c412f8db4b66111a2b8712f9885906a" style="width: 100.0%; height: 100.0%;">Malta Luqa International Airport</div>`)[0];
+                popup_eabd1c946b9207e4b010dec490525495.setContent(html_1c412f8db4b66111a2b8712f9885906a);
+            
+        
+
+        marker_e7d608c93f690c593e747af19986c29f.bindPopup(popup_eabd1c946b9207e4b010dec490525495)
+        ;
+
+        
+    
+    
+            var marker_bf4963ed5460826e65e6596f8c5e7119 = L.marker(
+                [14.59222, -60.9963],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d924f2c245692b807b2c5bbcc221eac9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948f597923b42a8b283494324dea15ff = $(`<div id="html_948f597923b42a8b283494324dea15ff" style="width: 100.0%; height: 100.0%;">Martinique Aime Cesaire International Airport</div>`)[0];
+                popup_d924f2c245692b807b2c5bbcc221eac9.setContent(html_948f597923b42a8b283494324dea15ff);
+            
+        
+
+        marker_bf4963ed5460826e65e6596f8c5e7119.bindPopup(popup_d924f2c245692b807b2c5bbcc221eac9)
+        ;
+
+        
+    
+    
+            var marker_2319d0da226504cb9236b86b859edfd3 = L.marker(
+                [18.306103, -15.964665],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_6cc404748a3d400a6d9d29f316a15680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c721bbae0edc347ebb123de4b2534e1c = $(`<div id="html_c721bbae0edc347ebb123de4b2534e1c" style="width: 100.0%; height: 100.0%;">Nouakchott Oumtounsy International Airport</div>`)[0];
+                popup_6cc404748a3d400a6d9d29f316a15680.setContent(html_c721bbae0edc347ebb123de4b2534e1c);
+            
+        
+
+        marker_2319d0da226504cb9236b86b859edfd3.bindPopup(popup_6cc404748a3d400a6d9d29f316a15680)
+        ;
+
+        
+    
+    
+            var marker_6bcd08c51e153fe13a0cd7c3d982e8cb = L.marker(
+                [-20.430201, 57.683601],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0989e181247b251c889361b835c77c23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bad4f29e5c446a6285e3d96aa7d5cd8 = $(`<div id="html_6bad4f29e5c446a6285e3d96aa7d5cd8" style="width: 100.0%; height: 100.0%;">Port Louis Sir Seewoosagur Ramgoolam Airport</div>`)[0];
+                popup_0989e181247b251c889361b835c77c23.setContent(html_6bad4f29e5c446a6285e3d96aa7d5cd8);
+            
+        
+
+        marker_6bcd08c51e153fe13a0cd7c3d982e8cb.bindPopup(popup_0989e181247b251c889361b835c77c23)
+        ;
+
+        
+    
+    
+            var marker_3ef5047ebfd518951b5e03f1c973b7ac = L.marker(
+                [21.03652, -86.876999],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_052367be0ffb986025dda978fc054703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a56d407217b53e39443f402897a6c9d = $(`<div id="html_4a56d407217b53e39443f402897a6c9d" style="width: 100.0%; height: 100.0%;">Cancun International Airport</div>`)[0];
+                popup_052367be0ffb986025dda978fc054703.setContent(html_4a56d407217b53e39443f402897a6c9d);
+            
+        
+
+        marker_3ef5047ebfd518951b5e03f1c973b7ac.bindPopup(popup_052367be0ffb986025dda978fc054703)
+        ;
+
+        
+    
+    
+            var marker_0492b2174ba6d4ccb0060a77bd0d2eeb = L.marker(
+                [46.927738, 28.930969],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_34640d5535c2ac6abd7c6e99ccdfa2ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_034c356d79167e5ad91fcbee6d0ea5e3 = $(`<div id="html_034c356d79167e5ad91fcbee6d0ea5e3" style="width: 100.0%; height: 100.0%;">Chisinau International Airport</div>`)[0];
+                popup_34640d5535c2ac6abd7c6e99ccdfa2ac.setContent(html_034c356d79167e5ad91fcbee6d0ea5e3);
+            
+        
+
+        marker_0492b2174ba6d4ccb0060a77bd0d2eeb.bindPopup(popup_34640d5535c2ac6abd7c6e99ccdfa2ac)
+        ;
+
+        
+    
+    
+            var marker_dce9c7217530bb2adefddd68da9911b5 = L.marker(
+                [47.843048, 106.766602],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8d8f6eea9c16749432cc603348dc5661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93e784e6be747207aadfdbbcc3f42cf = $(`<div id="html_f93e784e6be747207aadfdbbcc3f42cf" style="width: 100.0%; height: 100.0%;">Ulaanbaatar Chinggis Khaan International Airport</div>`)[0];
+                popup_8d8f6eea9c16749432cc603348dc5661.setContent(html_f93e784e6be747207aadfdbbcc3f42cf);
+            
+        
+
+        marker_dce9c7217530bb2adefddd68da9911b5.bindPopup(popup_8d8f6eea9c16749432cc603348dc5661)
+        ;
+
+        
+    
+    
+            var marker_8bcf3e203dcaa29659293503761566ed = L.marker(
+                [42.35939, 19.25189],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_231a195365e552a38703558e6df12cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa94caa3807e9f0f0dfe38eff04a8423 = $(`<div id="html_fa94caa3807e9f0f0dfe38eff04a8423" style="width: 100.0%; height: 100.0%;">Podgorica Airport</div>`)[0];
+                popup_231a195365e552a38703558e6df12cc6.setContent(html_fa94caa3807e9f0f0dfe38eff04a8423);
+            
+        
+
+        marker_8bcf3e203dcaa29659293503761566ed.bindPopup(popup_231a195365e552a38703558e6df12cc6)
+        ;
+
+        
+    
+    
+            var marker_0c05072acb1fa8e5607d31ce634fa43f = L.marker(
+                [16.791109, -62.193001],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_23d1741eefc39bc6ce502abbe4b7898a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d45babccf1db5c28b29d37301ad488a9 = $(`<div id="html_d45babccf1db5c28b29d37301ad488a9" style="width: 100.0%; height: 100.0%;">Montserrat John A. Osborne Airport</div>`)[0];
+                popup_23d1741eefc39bc6ce502abbe4b7898a.setContent(html_d45babccf1db5c28b29d37301ad488a9);
+            
+        
+
+        marker_0c05072acb1fa8e5607d31ce634fa43f.bindPopup(popup_23d1741eefc39bc6ce502abbe4b7898a)
+        ;
+
+        
+    
+    
+            var marker_6293987e3ee4aa68448704016c00b4c1 = L.marker(
+                [31.60688, -8.0363],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8414a52eb00548e0714348f8e238bb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51071d4a8ccf61befd7ef322d7d43324 = $(`<div id="html_51071d4a8ccf61befd7ef322d7d43324" style="width: 100.0%; height: 100.0%;">Marrakesh Menara Airport</div>`)[0];
+                popup_8414a52eb00548e0714348f8e238bb07.setContent(html_51071d4a8ccf61befd7ef322d7d43324);
+            
+        
+
+        marker_6293987e3ee4aa68448704016c00b4c1.bindPopup(popup_8414a52eb00548e0714348f8e238bb07)
+        ;
+
+        
+    
+    
+            var marker_1752b74abc2729c364c88fe8fe6ab656 = L.marker(
+                [-25.920799, 32.572601],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_1bf1dd75826eafce3ece60b707995a16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5e532e94ae639214a93f164aaafe75 = $(`<div id="html_2c5e532e94ae639214a93f164aaafe75" style="width: 100.0%; height: 100.0%;">Maputo International Airport</div>`)[0];
+                popup_1bf1dd75826eafce3ece60b707995a16.setContent(html_2c5e532e94ae639214a93f164aaafe75);
+            
+        
+
+        marker_1752b74abc2729c364c88fe8fe6ab656.bindPopup(popup_1bf1dd75826eafce3ece60b707995a16)
+        ;
+
+        
+    
+    
+            var marker_c8c32260c7f64e61b72615a68ceedc8c = L.marker(
+                [16.907301, 96.133217],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_42dfb8736252f98a8e317a25afc26ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9196acdf6c6062bb52db9efb9b4a527 = $(`<div id="html_d9196acdf6c6062bb52db9efb9b4a527" style="width: 100.0%; height: 100.0%;">Yangon International Airport</div>`)[0];
+                popup_42dfb8736252f98a8e317a25afc26ce3.setContent(html_d9196acdf6c6062bb52db9efb9b4a527);
+            
+        
+
+        marker_c8c32260c7f64e61b72615a68ceedc8c.bindPopup(popup_42dfb8736252f98a8e317a25afc26ce3)
+        ;
+
+        
+    
+    
+            var marker_4ec7a9f359b17f775a610cc50e2f5117 = L.marker(
+                [-22.479799, 17.470949],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_27a63ad5a8caf6650dea64991a12ad9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a8bed87dcd23c27993a68e41f752b8d = $(`<div id="html_2a8bed87dcd23c27993a68e41f752b8d" style="width: 100.0%; height: 100.0%;">Windhoek Hosea Kutako International Airport</div>`)[0];
+                popup_27a63ad5a8caf6650dea64991a12ad9d.setContent(html_2a8bed87dcd23c27993a68e41f752b8d);
+            
+        
+
+        marker_4ec7a9f359b17f775a610cc50e2f5117.bindPopup(popup_27a63ad5a8caf6650dea64991a12ad9d)
+        ;
+
+        
+    
+    
+            var marker_c09e4dc15c3830b98e333c9b91f5969c = L.marker(
+                [-0.54745, 166.919098],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_14870c99648ab19aeee34f84f3736710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c9b384f2378f7dbae99a39d54416ff5 = $(`<div id="html_0c9b384f2378f7dbae99a39d54416ff5" style="width: 100.0%; height: 100.0%;">Nauru International Airport</div>`)[0];
+                popup_14870c99648ab19aeee34f84f3736710.setContent(html_0c9b384f2378f7dbae99a39d54416ff5);
+            
+        
+
+        marker_c09e4dc15c3830b98e333c9b91f5969c.bindPopup(popup_14870c99648ab19aeee34f84f3736710)
+        ;
+
+        
+    
+    
+            var marker_8eb89953f33393244df513032d39947e = L.marker(
+                [27.696581, 85.3591],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_30cadb1505daa6575f9a7aeb859dfd0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe565f6d592cb052af936786977690ab = $(`<div id="html_fe565f6d592cb052af936786977690ab" style="width: 100.0%; height: 100.0%;">Kathmandu Tribhuvan International Airport</div>`)[0];
+                popup_30cadb1505daa6575f9a7aeb859dfd0e.setContent(html_fe565f6d592cb052af936786977690ab);
+            
+        
+
+        marker_8eb89953f33393244df513032d39947e.bindPopup(popup_30cadb1505daa6575f9a7aeb859dfd0e)
+        ;
+
+        
+    
+    
+            var marker_8176e966f1eddf44c7b28fd0f20440aa = L.marker(
+                [52.308609, 4.763889],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b371f29c8672dbd3296b2eb9621f24d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56574a794cdcfb5979da21df9743ebe9 = $(`<div id="html_56574a794cdcfb5979da21df9743ebe9" style="width: 100.0%; height: 100.0%;">Amsterdam Schiphol Airport</div>`)[0];
+                popup_b371f29c8672dbd3296b2eb9621f24d9.setContent(html_56574a794cdcfb5979da21df9743ebe9);
+            
+        
+
+        marker_8176e966f1eddf44c7b28fd0f20440aa.bindPopup(popup_b371f29c8672dbd3296b2eb9621f24d9)
+        ;
+
+        
+    
+    
+            var marker_db82b56e54a8554dc0bb95a24abfb065 = L.marker(
+                [-22.0163, 166.216095],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cb6d70cd256c661dbba21b8300f401cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abf26624de5c7225cd1c5a38996612f6 = $(`<div id="html_abf26624de5c7225cd1c5a38996612f6" style="width: 100.0%; height: 100.0%;">Noumea La Tontouta International Airport</div>`)[0];
+                popup_cb6d70cd256c661dbba21b8300f401cc.setContent(html_abf26624de5c7225cd1c5a38996612f6);
+            
+        
+
+        marker_db82b56e54a8554dc0bb95a24abfb065.bindPopup(popup_cb6d70cd256c661dbba21b8300f401cc)
+        ;
+
+        
+    
+    
+            var marker_a2443b16d473dc95078a0aa54bf0c4ff = L.marker(
+                [-37.007999, 174.791595],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f65ae20e800f2ca09c637d6ee9e91e10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_544236890409c3724c0834f1bfabf58c = $(`<div id="html_544236890409c3724c0834f1bfabf58c" style="width: 100.0%; height: 100.0%;">Auckland Airport</div>`)[0];
+                popup_f65ae20e800f2ca09c637d6ee9e91e10.setContent(html_544236890409c3724c0834f1bfabf58c);
+            
+        
+
+        marker_a2443b16d473dc95078a0aa54bf0c4ff.bindPopup(popup_f65ae20e800f2ca09c637d6ee9e91e10)
+        ;
+
+        
+    
+    
+            var marker_74220c2f2e34236f659e9565d5dd7069 = L.marker(
+                [12.14149, -86.168098],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4121f6614ef8124b56cf92473d502b0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e604140cf037b08d575358f4ebb991 = $(`<div id="html_47e604140cf037b08d575358f4ebb991" style="width: 100.0%; height: 100.0%;">Managua Augusto C. Sandino International Airport</div>`)[0];
+                popup_4121f6614ef8124b56cf92473d502b0c.setContent(html_47e604140cf037b08d575358f4ebb991);
+            
+        
+
+        marker_74220c2f2e34236f659e9565d5dd7069.bindPopup(popup_4121f6614ef8124b56cf92473d502b0c)
+        ;
+
+        
+    
+    
+            var marker_b4c877724a78bd91b5e87ff20d15897d = L.marker(
+                [6.577369, 3.321156],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_eb7b0ef6288dc070b06dc9312fa0b46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cc191d3286df34e481d31074c3dc3da = $(`<div id="html_9cc191d3286df34e481d31074c3dc3da" style="width: 100.0%; height: 100.0%;">Lagos Murtala Mohammed Airport</div>`)[0];
+                popup_eb7b0ef6288dc070b06dc9312fa0b46c.setContent(html_9cc191d3286df34e481d31074c3dc3da);
+            
+        
+
+        marker_b4c877724a78bd91b5e87ff20d15897d.bindPopup(popup_eb7b0ef6288dc070b06dc9312fa0b46c)
+        ;
+
+        
+    
+    
+            var marker_60c2e85ebb128179a3a5ce1e11d1b770 = L.marker(
+                [39.22406, 125.670097],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_ec155786a7c53bde3b98b5c2ab82d3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_452865c231645087f5cbafd4f08496e0 = $(`<div id="html_452865c231645087f5cbafd4f08496e0" style="width: 100.0%; height: 100.0%;">Pyongyang Sunan International Airport</div>`)[0];
+                popup_ec155786a7c53bde3b98b5c2ab82d3a0.setContent(html_452865c231645087f5cbafd4f08496e0);
+            
+        
+
+        marker_60c2e85ebb128179a3a5ce1e11d1b770.bindPopup(popup_ec155786a7c53bde3b98b5c2ab82d3a0)
+        ;
+
+        
+    
+    
+            var marker_a6c1a4fa36f5e9c84967b21c395510a7 = L.marker(
+                [41.96162, 21.62138],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_dcec5ff0d06b225fd3b8f10faa429513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7118d8c0174bbd8141177d41c91924 = $(`<div id="html_9e7118d8c0174bbd8141177d41c91924" style="width: 100.0%; height: 100.0%;">Skopje International Airport</div>`)[0];
+                popup_dcec5ff0d06b225fd3b8f10faa429513.setContent(html_9e7118d8c0174bbd8141177d41c91924);
+            
+        
+
+        marker_a6c1a4fa36f5e9c84967b21c395510a7.bindPopup(popup_dcec5ff0d06b225fd3b8f10faa429513)
+        ;
+
+        
+    
+    
+            var marker_9a42bd4de2d9ae91a3edc3e8f0bcf99c = L.marker(
+                [60.193909, 11.10036],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e9d50d4a0a363761aadb543a83344215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c830523699a4a75dc41f7689e27cc71c = $(`<div id="html_c830523699a4a75dc41f7689e27cc71c" style="width: 100.0%; height: 100.0%;">Oslo Gardermoen Airport</div>`)[0];
+                popup_e9d50d4a0a363761aadb543a83344215.setContent(html_c830523699a4a75dc41f7689e27cc71c);
+            
+        
+
+        marker_9a42bd4de2d9ae91a3edc3e8f0bcf99c.bindPopup(popup_e9d50d4a0a363761aadb543a83344215)
+        ;
+
+        
+    
+    
+            var marker_d7f2d449c885e0dfed5782bbada9ea2a = L.marker(
+                [23.593269, 58.284439],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_af839ee53f72bbe836f9c9dfbfd16c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db9afbe61fdebeb288bba30ef5450037 = $(`<div id="html_db9afbe61fdebeb288bba30ef5450037" style="width: 100.0%; height: 100.0%;">Muscat International Airport</div>`)[0];
+                popup_af839ee53f72bbe836f9c9dfbfd16c4d.setContent(html_db9afbe61fdebeb288bba30ef5450037);
+            
+        
+
+        marker_d7f2d449c885e0dfed5782bbada9ea2a.bindPopup(popup_af839ee53f72bbe836f9c9dfbfd16c4d)
+        ;
+
+        
+    
+    
+            var marker_4e81791252ee4d29098cc5dd345a1f97 = L.marker(
+                [31.521561, 74.403587],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_11b95666e4ed37d87cec6107910a3392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7b55f1fd58a4f2da8829d4952da8f79 = $(`<div id="html_a7b55f1fd58a4f2da8829d4952da8f79" style="width: 100.0%; height: 100.0%;">Lahore Allama Iqbal International Airport</div>`)[0];
+                popup_11b95666e4ed37d87cec6107910a3392.setContent(html_a7b55f1fd58a4f2da8829d4952da8f79);
+            
+        
+
+        marker_4e81791252ee4d29098cc5dd345a1f97.bindPopup(popup_11b95666e4ed37d87cec6107910a3392)
+        ;
+
+        
+    
+    
+            var marker_68506cdb1fa9c94d9d4805f6875d7b93 = L.marker(
+                [7.367303, 134.544205],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0b1b21d3e47cdae5eaf63ee67e3dd9a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e302b6e09c6d7a490b273e3dbb40b54d = $(`<div id="html_e302b6e09c6d7a490b273e3dbb40b54d" style="width: 100.0%; height: 100.0%;">Airai Roman Tmetuchl International Airport</div>`)[0];
+                popup_0b1b21d3e47cdae5eaf63ee67e3dd9a2.setContent(html_e302b6e09c6d7a490b273e3dbb40b54d);
+            
+        
+
+        marker_68506cdb1fa9c94d9d4805f6875d7b93.bindPopup(popup_0b1b21d3e47cdae5eaf63ee67e3dd9a2)
+        ;
+
+        
+    
+    
+            var marker_2f88fafba5296d6ea3541218ea57758b = L.marker(
+                [9.071364, -79.3834],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_eb7976e6440d081d602e5b660668a7c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe20dffc431c6728a68ae745fa1e9008 = $(`<div id="html_fe20dffc431c6728a68ae745fa1e9008" style="width: 100.0%; height: 100.0%;">Panama City Tocumen International Airport</div>`)[0];
+                popup_eb7976e6440d081d602e5b660668a7c6.setContent(html_fe20dffc431c6728a68ae745fa1e9008);
+            
+        
+
+        marker_2f88fafba5296d6ea3541218ea57758b.bindPopup(popup_eb7976e6440d081d602e5b660668a7c6)
+        ;
+
+        
+    
+    
+            var marker_87905b55e0742c3a68cffcdf94182b1c = L.marker(
+                [-9.44338, 147.220001],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e234808fc00a96da5188fc778fc867e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02fb31ae80d1c81bcc0ac7f4fd827dd2 = $(`<div id="html_02fb31ae80d1c81bcc0ac7f4fd827dd2" style="width: 100.0%; height: 100.0%;">Port Moresby Jacksons International Airport</div>`)[0];
+                popup_e234808fc00a96da5188fc778fc867e1.setContent(html_02fb31ae80d1c81bcc0ac7f4fd827dd2);
+            
+        
+
+        marker_87905b55e0742c3a68cffcdf94182b1c.bindPopup(popup_e234808fc00a96da5188fc778fc867e1)
+        ;
+
+        
+    
+    
+            var marker_3b738fd4fbdb2cb9287cce61ad0e330f = L.marker(
+                [-25.239799, -57.5191],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_675a50851c15597bbac139e27a02f9bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac9c295661ccb2eec32b4f09204bf9fb = $(`<div id="html_ac9c295661ccb2eec32b4f09204bf9fb" style="width: 100.0%; height: 100.0%;">Asuncion Silvio Pettirossi International Airport</div>`)[0];
+                popup_675a50851c15597bbac139e27a02f9bd.setContent(html_ac9c295661ccb2eec32b4f09204bf9fb);
+            
+        
+
+        marker_3b738fd4fbdb2cb9287cce61ad0e330f.bindPopup(popup_675a50851c15597bbac139e27a02f9bd)
+        ;
+
+        
+    
+    
+            var marker_74c4ebf9da5fe109f8019a3af11795ed = L.marker(
+                [-12.0218, -77.114304],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_2e4af5e82b710a477e225d10403add55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ef51d5698bec7ce27c8e8442d3e4a79 = $(`<div id="html_6ef51d5698bec7ce27c8e8442d3e4a79" style="width: 100.0%; height: 100.0%;">Lima Jorge Chavez International Airport</div>`)[0];
+                popup_2e4af5e82b710a477e225d10403add55.setContent(html_6ef51d5698bec7ce27c8e8442d3e4a79);
+            
+        
+
+        marker_74c4ebf9da5fe109f8019a3af11795ed.bindPopup(popup_2e4af5e82b710a477e225d10403add55)
+        ;
+
+        
+    
+    
+            var marker_73fa880e5ff8e8ff416b4088b6bee729 = L.marker(
+                [14.50864, 121.019501],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_34229c94c183d6a5b89db1dc3efbe3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bb8ac1acd6d6ddcf3d62a83cdd115d6 = $(`<div id="html_1bb8ac1acd6d6ddcf3d62a83cdd115d6" style="width: 100.0%; height: 100.0%;">Manila Ninoy Aquino International Airport</div>`)[0];
+                popup_34229c94c183d6a5b89db1dc3efbe3d6.setContent(html_1bb8ac1acd6d6ddcf3d62a83cdd115d6);
+            
+        
+
+        marker_73fa880e5ff8e8ff416b4088b6bee729.bindPopup(popup_34229c94c183d6a5b89db1dc3efbe3d6)
+        ;
+
+        
+    
+    
+            var marker_957b787474407931a64c888e117f29fa = L.marker(
+                [52.165749, 20.967119],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_ab3544420f8202a672cf086b296c7d72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aa3b12633715d566d56b7c6f6522ac6 = $(`<div id="html_8aa3b12633715d566d56b7c6f6522ac6" style="width: 100.0%; height: 100.0%;">Warsaw Chopin Airport</div>`)[0];
+                popup_ab3544420f8202a672cf086b296c7d72.setContent(html_8aa3b12633715d566d56b7c6f6522ac6);
+            
+        
+
+        marker_957b787474407931a64c888e117f29fa.bindPopup(popup_ab3544420f8202a672cf086b296c7d72)
+        ;
+
+        
+    
+    
+            var marker_511e2b3c18fae66f6beff4a52a6cf81f = L.marker(
+                [38.781311, -9.13591],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bdc1fe6c9b2764c1bd7705004772c4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a46adaa816465abb8ee9056dfcf38b56 = $(`<div id="html_a46adaa816465abb8ee9056dfcf38b56" style="width: 100.0%; height: 100.0%;">Lisbon Humberto Delgado Airport</div>`)[0];
+                popup_bdc1fe6c9b2764c1bd7705004772c4b1.setContent(html_a46adaa816465abb8ee9056dfcf38b56);
+            
+        
+
+        marker_511e2b3c18fae66f6beff4a52a6cf81f.bindPopup(popup_bdc1fe6c9b2764c1bd7705004772c4b1)
+        ;
+
+        
+    
+    
+            var marker_18c898afed872a1c760103a6bbb6b99c = L.marker(
+                [18.439409, -66.001801],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_9e91dd2815673bfe7258a315ba051fde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ffa9fec22b58c293552267ab557e4f = $(`<div id="html_a7ffa9fec22b58c293552267ab557e4f" style="width: 100.0%; height: 100.0%;">San Juan Luis Munoz Marin International Airport</div>`)[0];
+                popup_9e91dd2815673bfe7258a315ba051fde.setContent(html_a7ffa9fec22b58c293552267ab557e4f);
+            
+        
+
+        marker_18c898afed872a1c760103a6bbb6b99c.bindPopup(popup_9e91dd2815673bfe7258a315ba051fde)
+        ;
+
+        
+    
+    
+            var marker_ea0323d01240be01b5c785e9ea1a9b0d = L.marker(
+                [25.261059, 51.565094],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_aae12279694d4836027e26538b4af222 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81cbe78762b79820c16e999d5e0aa89d = $(`<div id="html_81cbe78762b79820c16e999d5e0aa89d" style="width: 100.0%; height: 100.0%;">Doha International Airport</div>`)[0];
+                popup_aae12279694d4836027e26538b4af222.setContent(html_81cbe78762b79820c16e999d5e0aa89d);
+            
+        
+
+        marker_ea0323d01240be01b5c785e9ea1a9b0d.bindPopup(popup_aae12279694d4836027e26538b4af222)
+        ;
+
+        
+    
+    
+            var marker_522c882a61281cb1435da1a5bcda7038 = L.marker(
+                [-20.889999, 55.51638],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_24ee6a86fb3f5e9c196e2b76c9018b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e0cb4fd236b8ea109965e806ed86df3 = $(`<div id="html_1e0cb4fd236b8ea109965e806ed86df3" style="width: 100.0%; height: 100.0%;">Saint-Denis Roland Garros Airport</div>`)[0];
+                popup_24ee6a86fb3f5e9c196e2b76c9018b78.setContent(html_1e0cb4fd236b8ea109965e806ed86df3);
+            
+        
+
+        marker_522c882a61281cb1435da1a5bcda7038.bindPopup(popup_24ee6a86fb3f5e9c196e2b76c9018b78)
+        ;
+
+        
+    
+    
+            var marker_ae95b7fb739b430bab68afd17884901e = L.marker(
+                [44.572159, 26.102171],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d5a757d7650411bdbdfb49f4f9c0d631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_314145acf201d8e0a3442999d1d26f94 = $(`<div id="html_314145acf201d8e0a3442999d1d26f94" style="width: 100.0%; height: 100.0%;">Bucharest Henri Coanda International Airport</div>`)[0];
+                popup_d5a757d7650411bdbdfb49f4f9c0d631.setContent(html_314145acf201d8e0a3442999d1d26f94);
+            
+        
+
+        marker_ae95b7fb739b430bab68afd17884901e.bindPopup(popup_d5a757d7650411bdbdfb49f4f9c0d631)
+        ;
+
+        
+    
+    
+            var marker_4d6bf146e8d1d7202067ec14085e3079 = L.marker(
+                [55.972641, 37.414581],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c1f668d901dbb855bad0712ee5cd3e95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ef8cf31c68cf245fc94b5ac3b9c0303 = $(`<div id="html_6ef8cf31c68cf245fc94b5ac3b9c0303" style="width: 100.0%; height: 100.0%;">Moscow Sheremetyevo International Airport</div>`)[0];
+                popup_c1f668d901dbb855bad0712ee5cd3e95.setContent(html_6ef8cf31c68cf245fc94b5ac3b9c0303);
+            
+        
+
+        marker_4d6bf146e8d1d7202067ec14085e3079.bindPopup(popup_c1f668d901dbb855bad0712ee5cd3e95)
+        ;
+
+        
+    
+    
+            var marker_7e36f7ad9468d087eb2e83ca2bb1182e = L.marker(
+                [-1.96862, 30.13945],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d2585aafb17f584d6b8825c160c5c7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_320e22dce000d77783427ccfd820c688 = $(`<div id="html_320e22dce000d77783427ccfd820c688" style="width: 100.0%; height: 100.0%;">Kigali Airport</div>`)[0];
+                popup_d2585aafb17f584d6b8825c160c5c7b9.setContent(html_320e22dce000d77783427ccfd820c688);
+            
+        
+
+        marker_7e36f7ad9468d087eb2e83ca2bb1182e.bindPopup(popup_d2585aafb17f584d6b8825c160c5c7b9)
+        ;
+
+        
+    
+    
+            var marker_e60c5f7e0a724709b0b01bb248758a07 = L.marker(
+                [-7.9696, -14.3937],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_29f93f576f9c90c3b5ec0b994a30e7ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c36a46330ff1b5269ef2643698fec94f = $(`<div id="html_c36a46330ff1b5269ef2643698fec94f" style="width: 100.0%; height: 100.0%;">Ascension Island Airport</div>`)[0];
+                popup_29f93f576f9c90c3b5ec0b994a30e7ce.setContent(html_c36a46330ff1b5269ef2643698fec94f);
+            
+        
+
+        marker_e60c5f7e0a724709b0b01bb248758a07.bindPopup(popup_29f93f576f9c90c3b5ec0b994a30e7ce)
+        ;
+
+        
+    
+    
+            var marker_9e7baf1db392e13f624de758dd1f5f50 = L.marker(
+                [17.31119, -62.718601],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_cd53e6ca08770ea6eca2044ba475b420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05002de4c3a35e9b3da4a2ad825cb64 = $(`<div id="html_d05002de4c3a35e9b3da4a2ad825cb64" style="width: 100.0%; height: 100.0%;">Basseterre Robert L. Bradshaw International Airport</div>`)[0];
+                popup_cd53e6ca08770ea6eca2044ba475b420.setContent(html_d05002de4c3a35e9b3da4a2ad825cb64);
+            
+        
+
+        marker_9e7baf1db392e13f624de758dd1f5f50.bindPopup(popup_cd53e6ca08770ea6eca2044ba475b420)
+        ;
+
+        
+    
+    
+            var marker_9663d56dccd070bea071075c82c333ee = L.marker(
+                [13.73319, -60.952499],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_ccd34bc82a3489a3919e80ff933e17a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae58b08296c70c2dd1e96608d64e171 = $(`<div id="html_2ae58b08296c70c2dd1e96608d64e171" style="width: 100.0%; height: 100.0%;">Vieux Fort Hewanorra International Airport</div>`)[0];
+                popup_ccd34bc82a3489a3919e80ff933e17a6.setContent(html_2ae58b08296c70c2dd1e96608d64e171);
+            
+        
+
+        marker_9663d56dccd070bea071075c82c333ee.bindPopup(popup_ccd34bc82a3489a3919e80ff933e17a6)
+        ;
+
+        
+    
+    
+            var marker_5a4f4429b60924ebc82037c775e6b5d4 = L.marker(
+                [0.378175, 6.712153],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_ef5705a8f2c21fd5b69b8eacd5033be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_113b8598112410017099b7683ed9a2a5 = $(`<div id="html_113b8598112410017099b7683ed9a2a5" style="width: 100.0%; height: 100.0%;">Sao Tome International Airport</div>`)[0];
+                popup_ef5705a8f2c21fd5b69b8eacd5033be9.setContent(html_113b8598112410017099b7683ed9a2a5);
+            
+        
+
+        marker_5a4f4429b60924ebc82037c775e6b5d4.bindPopup(popup_ef5705a8f2c21fd5b69b8eacd5033be9)
+        ;
+
+        
+    
+    
+            var marker_900d58dc239bf527ebb988d6f90004f8 = L.marker(
+                [21.67956, 39.156528],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_92febbea6461e0266b54365b2cf6f82c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10377617d0ed47155360a87939aae242 = $(`<div id="html_10377617d0ed47155360a87939aae242" style="width: 100.0%; height: 100.0%;">Jeddah King Abdulaziz International Airport</div>`)[0];
+                popup_92febbea6461e0266b54365b2cf6f82c.setContent(html_10377617d0ed47155360a87939aae242);
+            
+        
+
+        marker_900d58dc239bf527ebb988d6f90004f8.bindPopup(popup_92febbea6461e0266b54365b2cf6f82c)
+        ;
+
+        
+    
+    
+            var marker_294905be7e19c6c95bb1bdff1f5acf0c = L.marker(
+                [14.7397, -17.4902],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b8777a3d1fc9791cc3c1e0c47fb8020e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7538fa101c4277815a785ac1e2929701 = $(`<div id="html_7538fa101c4277815a785ac1e2929701" style="width: 100.0%; height: 100.0%;">Dakar International Airport</div>`)[0];
+                popup_b8777a3d1fc9791cc3c1e0c47fb8020e.setContent(html_7538fa101c4277815a785ac1e2929701);
+            
+        
+
+        marker_294905be7e19c6c95bb1bdff1f5acf0c.bindPopup(popup_b8777a3d1fc9791cc3c1e0c47fb8020e)
+        ;
+
+        
+    
+    
+            var marker_cc8684e47284398e94f4c76922520c7e = L.marker(
+                [44.818439, 20.30913],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_8b93fd6987ed5877e963fb3600db3e83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1041636a0e4a4a03478b9d161d1e0c3e = $(`<div id="html_1041636a0e4a4a03478b9d161d1e0c3e" style="width: 100.0%; height: 100.0%;">Belgrade Nikola Tesla Airport</div>`)[0];
+                popup_8b93fd6987ed5877e963fb3600db3e83.setContent(html_1041636a0e4a4a03478b9d161d1e0c3e);
+            
+        
+
+        marker_cc8684e47284398e94f4c76922520c7e.bindPopup(popup_8b93fd6987ed5877e963fb3600db3e83)
+        ;
+
+        
+    
+    
+            var marker_309ae6e208ddef09fcec7a9f435f2607 = L.marker(
+                [-4.67434, 55.521832],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_31c5118e25ee78aca8b355aa66747e83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9538360999fd5479d4660d11e557ef1 = $(`<div id="html_e9538360999fd5479d4660d11e557ef1" style="width: 100.0%; height: 100.0%;">Victoria Seychelles International Airport</div>`)[0];
+                popup_31c5118e25ee78aca8b355aa66747e83.setContent(html_e9538360999fd5479d4660d11e557ef1);
+            
+        
+
+        marker_309ae6e208ddef09fcec7a9f435f2607.bindPopup(popup_31c5118e25ee78aca8b355aa66747e83)
+        ;
+
+        
+    
+    
+            var marker_b584d8384fbecb9922933f3f25f1625e = L.marker(
+                [8.616444, -13.1954],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_64db00cb40965701dcb4319dc833fce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bc26c0b73ca4721db9f06de903103d4 = $(`<div id="html_5bc26c0b73ca4721db9f06de903103d4" style="width: 100.0%; height: 100.0%;">Freetown Lungi International Airport</div>`)[0];
+                popup_64db00cb40965701dcb4319dc833fce4.setContent(html_5bc26c0b73ca4721db9f06de903103d4);
+            
+        
+
+        marker_b584d8384fbecb9922933f3f25f1625e.bindPopup(popup_64db00cb40965701dcb4319dc833fce4)
+        ;
+
+        
+    
+    
+            var marker_4560a588cc39f3b8877660903cf4551a = L.marker(
+                [1.350189, 103.9944],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_839553b155517d9fee79310c0fd0834f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_059e538447f2b2d26e6d5c9ef4b9bdd8 = $(`<div id="html_059e538447f2b2d26e6d5c9ef4b9bdd8" style="width: 100.0%; height: 100.0%;">Singapore Changi Airport</div>`)[0];
+                popup_839553b155517d9fee79310c0fd0834f.setContent(html_059e538447f2b2d26e6d5c9ef4b9bdd8);
+            
+        
+
+        marker_4560a588cc39f3b8877660903cf4551a.bindPopup(popup_839553b155517d9fee79310c0fd0834f)
+        ;
+
+        
+    
+    
+            var marker_b55e9b5927a35b9b680f62030c61d02b = L.marker(
+                [48.170158, 17.21266],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5b3e0b141760e548f01eecb9f0560ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29b095822f647c3519974ff1e73e0e6a = $(`<div id="html_29b095822f647c3519974ff1e73e0e6a" style="width: 100.0%; height: 100.0%;">Bratislava M. R. Stefanik Airport</div>`)[0];
+                popup_5b3e0b141760e548f01eecb9f0560ecf.setContent(html_29b095822f647c3519974ff1e73e0e6a);
+            
+        
+
+        marker_b55e9b5927a35b9b680f62030c61d02b.bindPopup(popup_5b3e0b141760e548f01eecb9f0560ecf)
+        ;
+
+        
+    
+    
+            var marker_1e134ba23005b9e72f550b7d394e4c9a = L.marker(
+                [46.223679, 14.45761],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d264e311c6ee93591c757662982e51ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5929ca9266d13a99ef493c2c776eab7c = $(`<div id="html_5929ca9266d13a99ef493c2c776eab7c" style="width: 100.0%; height: 100.0%;">Ljubljana Joze Pucnik Airport</div>`)[0];
+                popup_d264e311c6ee93591c757662982e51ed.setContent(html_5929ca9266d13a99ef493c2c776eab7c);
+            
+        
+
+        marker_1e134ba23005b9e72f550b7d394e4c9a.bindPopup(popup_d264e311c6ee93591c757662982e51ed)
+        ;
+
+        
+    
+    
+            var marker_5910c98577fde29536548a1a9d85356e = L.marker(
+                [2.014444, 45.304722],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_b2e6d807d08d3cfbe40f3d511948b7f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3adec2987d40495aefc5d997bb63bc93 = $(`<div id="html_3adec2987d40495aefc5d997bb63bc93" style="width: 100.0%; height: 100.0%;">Mogadishu Aden Adde International Airport</div>`)[0];
+                popup_b2e6d807d08d3cfbe40f3d511948b7f4.setContent(html_3adec2987d40495aefc5d997bb63bc93);
+            
+        
+
+        marker_5910c98577fde29536548a1a9d85356e.bindPopup(popup_b2e6d807d08d3cfbe40f3d511948b7f4)
+        ;
+
+        
+    
+    
+            var marker_2eb27be61c4086ee3a6f9b3081360f10 = L.marker(
+                [-26.139099, 28.246],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4e5f435c8eedab2f69d623508fae71e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bad2c9e7fd0e328ea4dc39913ad0cc44 = $(`<div id="html_bad2c9e7fd0e328ea4dc39913ad0cc44" style="width: 100.0%; height: 100.0%;">Johannesburg OR Tambo International Airport</div>`)[0];
+                popup_4e5f435c8eedab2f69d623508fae71e6.setContent(html_bad2c9e7fd0e328ea4dc39913ad0cc44);
+            
+        
+
+        marker_2eb27be61c4086ee3a6f9b3081360f10.bindPopup(popup_4e5f435c8eedab2f69d623508fae71e6)
+        ;
+
+        
+    
+    
+            var marker_7ecb625e9d8125b8636db859f14847e3 = L.marker(
+                [37.46907, 126.4505],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_4265638273c403b439c5c4851324277d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545ab2de3fdbc79263265e3ec1e394cc = $(`<div id="html_545ab2de3fdbc79263265e3ec1e394cc" style="width: 100.0%; height: 100.0%;">Seoul Incheon International Airport</div>`)[0];
+                popup_4265638273c403b439c5c4851324277d.setContent(html_545ab2de3fdbc79263265e3ec1e394cc);
+            
+        
+
+        marker_7ecb625e9d8125b8636db859f14847e3.bindPopup(popup_4265638273c403b439c5c4851324277d)
+        ;
+
+        
+    
+    
+            var marker_7aa06917ce5041666cd8407631c50118 = L.marker(
+                [4.872006, 31.60111],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e611abd3cdc81896dbb4277172f4602d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a0ac94371eed31016d708165802fb58 = $(`<div id="html_0a0ac94371eed31016d708165802fb58" style="width: 100.0%; height: 100.0%;">Juba International Airport</div>`)[0];
+                popup_e611abd3cdc81896dbb4277172f4602d.setContent(html_0a0ac94371eed31016d708165802fb58);
+            
+        
+
+        marker_7aa06917ce5041666cd8407631c50118.bindPopup(popup_e611abd3cdc81896dbb4277172f4602d)
+        ;
+
+        
+    
+    
+            var marker_90b3006910488b7761fdadab6b4f45fb = L.marker(
+                [40.488701, -3.57],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_53644e8c25ca0931bd0bbb38620491c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d75da615f7094212eceded96e5b1baaa = $(`<div id="html_d75da615f7094212eceded96e5b1baaa" style="width: 100.0%; height: 100.0%;">Madrid Barajas Airport</div>`)[0];
+                popup_53644e8c25ca0931bd0bbb38620491c2.setContent(html_d75da615f7094212eceded96e5b1baaa);
+            
+        
+
+        marker_90b3006910488b7761fdadab6b4f45fb.bindPopup(popup_53644e8c25ca0931bd0bbb38620491c2)
+        ;
+
+        
+    
+    
+            var marker_d06f6db85c161f5133f6e3b94941bc62 = L.marker(
+                [7.181139, 79.883789],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_05eaabd20822a16adcda8ef34192da3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_934dc4592dcc0175cb0d3c9aea6720f0 = $(`<div id="html_934dc4592dcc0175cb0d3c9aea6720f0" style="width: 100.0%; height: 100.0%;">Colombo Bandaranaike International Airport</div>`)[0];
+                popup_05eaabd20822a16adcda8ef34192da3f.setContent(html_934dc4592dcc0175cb0d3c9aea6720f0);
+            
+        
+
+        marker_d06f6db85c161f5133f6e3b94941bc62.bindPopup(popup_05eaabd20822a16adcda8ef34192da3f)
+        ;
+
+        
+    
+    
+            var marker_215a54d5bd325e7b161ddd72f547ca9b = L.marker(
+                [15.58949, 32.553162],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_68e27a2671c57022a07374f01c70fc03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_776f2e983814740e4a04fb778e42e172 = $(`<div id="html_776f2e983814740e4a04fb778e42e172" style="width: 100.0%; height: 100.0%;">Khartoum International Airport</div>`)[0];
+                popup_68e27a2671c57022a07374f01c70fc03.setContent(html_776f2e983814740e4a04fb778e42e172);
+            
+        
+
+        marker_215a54d5bd325e7b161ddd72f547ca9b.bindPopup(popup_68e27a2671c57022a07374f01c70fc03)
+        ;
+
+        
+    
+    
+            var marker_e4c5a2ac8bb1b26c90a8f4fc91c11140 = L.marker(
+                [5.452831, -55.187698],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_990fa99e9f8a1cbc0bf588aaaf85c679 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e43b81e6f735d1701c313f85a3c9448 = $(`<div id="html_9e43b81e6f735d1701c313f85a3c9448" style="width: 100.0%; height: 100.0%;">Paramaribo Zanderij International Airport</div>`)[0];
+                popup_990fa99e9f8a1cbc0bf588aaaf85c679.setContent(html_9e43b81e6f735d1701c313f85a3c9448);
+            
+        
+
+        marker_e4c5a2ac8bb1b26c90a8f4fc91c11140.bindPopup(popup_990fa99e9f8a1cbc0bf588aaaf85c679)
+        ;
+
+        
+    
+    
+            var marker_18aabd19fe8e9840922009bbd7c0687d = L.marker(
+                [59.653545, 17.939816],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f499ee30e203849307f914e5db731ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1381f22f0094b3b0f8d5ae6c66b6fa = $(`<div id="html_da1381f22f0094b3b0f8d5ae6c66b6fa" style="width: 100.0%; height: 100.0%;">Stockholm Arlanda Airport</div>`)[0];
+                popup_f499ee30e203849307f914e5db731ed6.setContent(html_da1381f22f0094b3b0f8d5ae6c66b6fa);
+            
+        
+
+        marker_18aabd19fe8e9840922009bbd7c0687d.bindPopup(popup_f499ee30e203849307f914e5db731ed6)
+        ;
+
+        
+    
+    
+            var marker_ee2f130c668a90aefe51eb8fb90ecf16 = L.marker(
+                [47.464722, 8.549167],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_73131d86aeacede7d78ce7030b81f724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc9eccd11b99e13be8e7fa9907d036db = $(`<div id="html_cc9eccd11b99e13be8e7fa9907d036db" style="width: 100.0%; height: 100.0%;">Zurich Airport</div>`)[0];
+                popup_73131d86aeacede7d78ce7030b81f724.setContent(html_cc9eccd11b99e13be8e7fa9907d036db);
+            
+        
+
+        marker_ee2f130c668a90aefe51eb8fb90ecf16.bindPopup(popup_73131d86aeacede7d78ce7030b81f724)
+        ;
+
+        
+    
+    
+            var marker_fd03d657751ec19d9e3364ff5b0b73b0 = L.marker(
+                [33.410629, 36.514259],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7bfa4a0a296d92e40ced17da6c7eba4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c3b1cc462f68dce9285505076729fa0 = $(`<div id="html_2c3b1cc462f68dce9285505076729fa0" style="width: 100.0%; height: 100.0%;">Damascus International Airport</div>`)[0];
+                popup_7bfa4a0a296d92e40ced17da6c7eba4b.setContent(html_2c3b1cc462f68dce9285505076729fa0);
+            
+        
+
+        marker_fd03d657751ec19d9e3364ff5b0b73b0.bindPopup(popup_7bfa4a0a296d92e40ced17da6c7eba4b)
+        ;
+
+        
+    
+    
+            var marker_ab82846c03879fde2ab3180422f4c494 = L.marker(
+                [25.07773, 121.232803],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_14d35cfbc2dc791da5f6cc3f27b66fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2e658dc62ab54ffd2243240347ec35 = $(`<div id="html_9d2e658dc62ab54ffd2243240347ec35" style="width: 100.0%; height: 100.0%;">Taipei Taoyuan International Airport</div>`)[0];
+                popup_14d35cfbc2dc791da5f6cc3f27b66fc0.setContent(html_9d2e658dc62ab54ffd2243240347ec35);
+            
+        
+
+        marker_ab82846c03879fde2ab3180422f4c494.bindPopup(popup_14d35cfbc2dc791da5f6cc3f27b66fc0)
+        ;
+
+        
+    
+    
+            var marker_2a6f62e794c17d1649c744df7072f1ef = L.marker(
+                [38.543331, 68.824997],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5f48773e26bd6e5c7c1809f66db74933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_339f8c96490b9dda31df4c3d1957081b = $(`<div id="html_339f8c96490b9dda31df4c3d1957081b" style="width: 100.0%; height: 100.0%;">Dushanbe International Airport</div>`)[0];
+                popup_5f48773e26bd6e5c7c1809f66db74933.setContent(html_339f8c96490b9dda31df4c3d1957081b);
+            
+        
+
+        marker_2a6f62e794c17d1649c744df7072f1ef.bindPopup(popup_5f48773e26bd6e5c7c1809f66db74933)
+        ;
+
+        
+    
+    
+            var marker_68d75bf7aa87f79057b62f2b9396d261 = L.marker(
+                [-6.87811, 39.202621],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_5e154b6bba7d81f1fdc02459bfa555f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d093fcb4d314ed324ba91da678e5cc = $(`<div id="html_f8d093fcb4d314ed324ba91da678e5cc" style="width: 100.0%; height: 100.0%;">Dar-es-Salaam Julius Nyerere International Airport</div>`)[0];
+                popup_5e154b6bba7d81f1fdc02459bfa555f9.setContent(html_f8d093fcb4d314ed324ba91da678e5cc);
+            
+        
+
+        marker_68d75bf7aa87f79057b62f2b9396d261.bindPopup(popup_5e154b6bba7d81f1fdc02459bfa555f9)
+        ;
+
+        
+    
+    
+            var marker_9049b02276d4ad0cde97c9efae635d58 = L.marker(
+                [13.6811, 100.7472],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0a2ecc2801c19cd14d5cfbf8889ccec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c314f94dc24c50fa1c0f8461dc1224ab = $(`<div id="html_c314f94dc24c50fa1c0f8461dc1224ab" style="width: 100.0%; height: 100.0%;">Bangkok Suvarnabhumi Airport</div>`)[0];
+                popup_0a2ecc2801c19cd14d5cfbf8889ccec6.setContent(html_c314f94dc24c50fa1c0f8461dc1224ab);
+            
+        
+
+        marker_9049b02276d4ad0cde97c9efae635d58.bindPopup(popup_0a2ecc2801c19cd14d5cfbf8889ccec6)
+        ;
+
+        
+    
+    
+            var marker_c8ca044fcfc5e22e37472d937757d20c = L.marker(
+                [-8.54641, 125.524803],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d274d690e2e18306116848ac912c8b04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b5fc669ccc65795c3ba3e2c303ef861 = $(`<div id="html_4b5fc669ccc65795c3ba3e2c303ef861" style="width: 100.0%; height: 100.0%;">Dili Presidente Nicolau Lobato International Airport</div>`)[0];
+                popup_d274d690e2e18306116848ac912c8b04.setContent(html_4b5fc669ccc65795c3ba3e2c303ef861);
+            
+        
+
+        marker_c8ca044fcfc5e22e37472d937757d20c.bindPopup(popup_d274d690e2e18306116848ac912c8b04)
+        ;
+
+        
+    
+    
+            var marker_df14dfadbf7b67f4250d47b259203ebc = L.marker(
+                [-21.238001, -175.136993],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f38d4e67151d08f36ba561172ecd081a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5333e62452c7f5c07034fa56232f306e = $(`<div id="html_5333e62452c7f5c07034fa56232f306e" style="width: 100.0%; height: 100.0%;">Tongatapu Fuaʻamotu International Airport</div>`)[0];
+                popup_f38d4e67151d08f36ba561172ecd081a.setContent(html_5333e62452c7f5c07034fa56232f306e);
+            
+        
+
+        marker_df14dfadbf7b67f4250d47b259203ebc.bindPopup(popup_f38d4e67151d08f36ba561172ecd081a)
+        ;
+
+        
+    
+    
+            var marker_314aa0eacd5d0d6fbdc612e7c78ab2f6 = L.marker(
+                [10.59536, -61.3372],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_bf1bf25768cdf6bfba7ccd86953f998e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563b67f868a2f59ff1077c94191325e9 = $(`<div id="html_563b67f868a2f59ff1077c94191325e9" style="width: 100.0%; height: 100.0%;">Port of Spain Piarco International Airport</div>`)[0];
+                popup_bf1bf25768cdf6bfba7ccd86953f998e.setContent(html_563b67f868a2f59ff1077c94191325e9);
+            
+        
+
+        marker_314aa0eacd5d0d6fbdc612e7c78ab2f6.bindPopup(popup_bf1bf25768cdf6bfba7ccd86953f998e)
+        ;
+
+        
+    
+    
+            var marker_55886f3022d38e25c53275dc71479b0b = L.marker(
+                [36.091946, 10.413889],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_086227361a802591e29ffe41b08e4fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca74fa3110c5f92fd89719ef2e9e824 = $(`<div id="html_dca74fa3110c5f92fd89719ef2e9e824" style="width: 100.0%; height: 100.0%;">Enfidha Hammamet International Airport</div>`)[0];
+                popup_086227361a802591e29ffe41b08e4fa5.setContent(html_dca74fa3110c5f92fd89719ef2e9e824);
+            
+        
+
+        marker_55886f3022d38e25c53275dc71479b0b.bindPopup(popup_086227361a802591e29ffe41b08e4fa5)
+        ;
+
+        
+    
+    
+            var marker_951c62f774eb2fcbd0bc89ffcf972b14 = L.marker(
+                [41.267052, 28.729757],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d4161f377f2315d9ea80a255508982c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48ed4a8c1e3e30cee154877adb4862a7 = $(`<div id="html_48ed4a8c1e3e30cee154877adb4862a7" style="width: 100.0%; height: 100.0%;">Istanbul Airport</div>`)[0];
+                popup_d4161f377f2315d9ea80a255508982c2.setContent(html_48ed4a8c1e3e30cee154877adb4862a7);
+            
+        
+
+        marker_951c62f774eb2fcbd0bc89ffcf972b14.bindPopup(popup_d4161f377f2315d9ea80a255508982c2)
+        ;
+
+        
+    
+    
+            var marker_63be749641edf361e6bcf56204ecc27e = L.marker(
+                [37.986809, 58.360958],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_799ec8cc2210cca1ffeb96bdba368c18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b7f688d840c4c14fb4ab3d4b92a4df0 = $(`<div id="html_4b7f688d840c4c14fb4ab3d4b92a4df0" style="width: 100.0%; height: 100.0%;">Ashgabat International Airport</div>`)[0];
+                popup_799ec8cc2210cca1ffeb96bdba368c18.setContent(html_4b7f688d840c4c14fb4ab3d4b92a4df0);
+            
+        
+
+        marker_63be749641edf361e6bcf56204ecc27e.bindPopup(popup_799ec8cc2210cca1ffeb96bdba368c18)
+        ;
+
+        
+    
+    
+            var marker_ca76427bde78bc3e00e3900c255f12d3 = L.marker(
+                [21.773621, -72.2658],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_e16f24ecbba33cb1b243c53dbfa5e4cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8ea5fc84c2d206986cb4b088f7ff4c5 = $(`<div id="html_b8ea5fc84c2d206986cb4b088f7ff4c5" style="width: 100.0%; height: 100.0%;">Providenciales International Airport</div>`)[0];
+                popup_e16f24ecbba33cb1b243c53dbfa5e4cd.setContent(html_b8ea5fc84c2d206986cb4b088f7ff4c5);
+            
+        
+
+        marker_ca76427bde78bc3e00e3900c255f12d3.bindPopup(popup_e16f24ecbba33cb1b243c53dbfa5e4cd)
+        ;
+
+        
+    
+    
+            var marker_7fba9364fba4c28d71f7bf9963ecdf4d = L.marker(
+                [0.042386, 32.443501],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_2dddbf2e8a3d231c29791d52e8e2ea34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0c711a9d47b6ef5897e8676d4c8c36a = $(`<div id="html_a0c711a9d47b6ef5897e8676d4c8c36a" style="width: 100.0%; height: 100.0%;">Entebbe International Airport</div>`)[0];
+                popup_2dddbf2e8a3d231c29791d52e8e2ea34.setContent(html_a0c711a9d47b6ef5897e8676d4c8c36a);
+            
+        
+
+        marker_7fba9364fba4c28d71f7bf9963ecdf4d.bindPopup(popup_2dddbf2e8a3d231c29791d52e8e2ea34)
+        ;
+
+        
+    
+    
+            var marker_07eaf2a3799d35c4b38d2625a94b8bfd = L.marker(
+                [50.345001, 30.89472],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_c764b3ff3081965ef24d2b5aabbda33e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25cda6bf5a678ed4a9af41267cd27ccb = $(`<div id="html_25cda6bf5a678ed4a9af41267cd27ccb" style="width: 100.0%; height: 100.0%;">Kyiv Boryspil International Airport</div>`)[0];
+                popup_c764b3ff3081965ef24d2b5aabbda33e.setContent(html_25cda6bf5a678ed4a9af41267cd27ccb);
+            
+        
+
+        marker_07eaf2a3799d35c4b38d2625a94b8bfd.bindPopup(popup_c764b3ff3081965ef24d2b5aabbda33e)
+        ;
+
+        
+    
+    
+            var marker_591d64fa6841828a74afc508d006fb78 = L.marker(
+                [25.252769, 55.364441],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0ccc5fb8f1abd97115152bac4599c558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e694649c1a6628f18a467a67768749e = $(`<div id="html_8e694649c1a6628f18a467a67768749e" style="width: 100.0%; height: 100.0%;">Dubai International Airport</div>`)[0];
+                popup_0ccc5fb8f1abd97115152bac4599c558.setContent(html_8e694649c1a6628f18a467a67768749e);
+            
+        
+
+        marker_591d64fa6841828a74afc508d006fb78.bindPopup(popup_0ccc5fb8f1abd97115152bac4599c558)
+        ;
+
+        
+    
+    
+            var marker_911078ba724cb4cd69c059b83a261507 = L.marker(
+                [51.471626, -0.467081],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_d2eca4008d23bb406a649868adda5d49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35a0b2af65ef901bcafce3e4a1310e4a = $(`<div id="html_35a0b2af65ef901bcafce3e4a1310e4a" style="width: 100.0%; height: 100.0%;">London Heathrow Airport</div>`)[0];
+                popup_d2eca4008d23bb406a649868adda5d49.setContent(html_35a0b2af65ef901bcafce3e4a1310e4a);
+            
+        
+
+        marker_911078ba724cb4cd69c059b83a261507.bindPopup(popup_d2eca4008d23bb406a649868adda5d49)
+        ;
+
+        
+    
+    
+            var marker_9e80b843313d5c6d3121f2fc0b1e1828 = L.marker(
+                [40.639751, -73.7789],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_24e1b2996a04965c2f14ab8d09573fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4918f47de8f850b3e870fc38fc40530c = $(`<div id="html_4918f47de8f850b3e870fc38fc40530c" style="width: 100.0%; height: 100.0%;">New York John F. Kennedy International Airport</div>`)[0];
+                popup_24e1b2996a04965c2f14ab8d09573fe7.setContent(html_4918f47de8f850b3e870fc38fc40530c);
+            
+        
+
+        marker_9e80b843313d5c6d3121f2fc0b1e1828.bindPopup(popup_24e1b2996a04965c2f14ab8d09573fe7)
+        ;
+
+        
+    
+    
+            var marker_35131d0028d4af32f9addb2c995b22e9 = L.marker(
+                [-34.838402, -56.0308],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_7705fc9668d4682bb8a8202cc52df982 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d40c4c34e4535ce4d07dbff5bd5d429 = $(`<div id="html_3d40c4c34e4535ce4d07dbff5bd5d429" style="width: 100.0%; height: 100.0%;">Montevideo Carrasco International Airport</div>`)[0];
+                popup_7705fc9668d4682bb8a8202cc52df982.setContent(html_3d40c4c34e4535ce4d07dbff5bd5d429);
+            
+        
+
+        marker_35131d0028d4af32f9addb2c995b22e9.bindPopup(popup_7705fc9668d4682bb8a8202cc52df982)
+        ;
+
+        
+    
+    
+            var marker_c7adc5ad86807659ca7809016017ae8c = L.marker(
+                [41.257858, 69.281181],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_f33f32768e5ab853323fd7c2696e4f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82552405bad0db2b27a1cb109bec0318 = $(`<div id="html_82552405bad0db2b27a1cb109bec0318" style="width: 100.0%; height: 100.0%;">Tashkent International Airport</div>`)[0];
+                popup_f33f32768e5ab853323fd7c2696e4f35.setContent(html_82552405bad0db2b27a1cb109bec0318);
+            
+        
+
+        marker_c7adc5ad86807659ca7809016017ae8c.bindPopup(popup_f33f32768e5ab853323fd7c2696e4f35)
+        ;
+
+        
+    
+    
+            var marker_1abcaac5f82e87ed68bed4ecd7769b4c = L.marker(
+                [-17.699301, 168.319702],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_0590e61859f180e0b609a5f655b14ba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92ab236d38cd64b3475dd798bc77a8ce = $(`<div id="html_92ab236d38cd64b3475dd798bc77a8ce" style="width: 100.0%; height: 100.0%;">Port Vila Bauerfield International Airport</div>`)[0];
+                popup_0590e61859f180e0b609a5f655b14ba0.setContent(html_92ab236d38cd64b3475dd798bc77a8ce);
+            
+        
+
+        marker_1abcaac5f82e87ed68bed4ecd7769b4c.bindPopup(popup_0590e61859f180e0b609a5f655b14ba0)
+        ;
+
+        
+    
+    
+            var marker_5028f3f50287831b0cdd478a5e4941ed = L.marker(
+                [10.60311, -66.990501],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_514c7867224f9a90d88ccebec8dbd176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b99e585ab6c91bc11d07648e3cf98ee4 = $(`<div id="html_b99e585ab6c91bc11d07648e3cf98ee4" style="width: 100.0%; height: 100.0%;">Caracas Simon Bolivar International Airport</div>`)[0];
+                popup_514c7867224f9a90d88ccebec8dbd176.setContent(html_b99e585ab6c91bc11d07648e3cf98ee4);
+            
+        
+
+        marker_5028f3f50287831b0cdd478a5e4941ed.bindPopup(popup_514c7867224f9a90d88ccebec8dbd176)
+        ;
+
+        
+    
+    
+            var marker_cfc21c7611b6f916b40bf290a5863c27 = L.marker(
+                [10.81879, 106.651802],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_42cc17109b543209270395aeecbac60a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f68bf3d334ac3fafe0a5a6c9d03efb = $(`<div id="html_86f68bf3d334ac3fafe0a5a6c9d03efb" style="width: 100.0%; height: 100.0%;">Ho Chi Minh City International Airport</div>`)[0];
+                popup_42cc17109b543209270395aeecbac60a.setContent(html_86f68bf3d334ac3fafe0a5a6c9d03efb);
+            
+        
+
+        marker_cfc21c7611b6f916b40bf290a5863c27.bindPopup(popup_42cc17109b543209270395aeecbac60a)
+        ;
+
+        
+    
+    
+            var marker_0a7818fc9bc6e1146956c474b823051e = L.marker(
+                [18.44483, -64.5429],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_3f6618c7d1631302988443f8f27da0f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d73cccd0bc92760a29358feef2c2e682 = $(`<div id="html_d73cccd0bc92760a29358feef2c2e682" style="width: 100.0%; height: 100.0%;">Beef Island Terrance B. Lettsome Airport</div>`)[0];
+                popup_3f6618c7d1631302988443f8f27da0f2.setContent(html_d73cccd0bc92760a29358feef2c2e682);
+            
+        
+
+        marker_0a7818fc9bc6e1146956c474b823051e.bindPopup(popup_3f6618c7d1631302988443f8f27da0f2)
+        ;
+
+        
+    
+    
+            var marker_2f88486c0ede945995a14242bea85f4f = L.marker(
+                [18.337299, -64.973297],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_595ed299ea0cbd79c6e89ad386fae9fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7694640ee4179e17c157fde1c45a85b = $(`<div id="html_b7694640ee4179e17c157fde1c45a85b" style="width: 100.0%; height: 100.0%;">St. Thomas Cyril E. King Airport</div>`)[0];
+                popup_595ed299ea0cbd79c6e89ad386fae9fc.setContent(html_b7694640ee4179e17c157fde1c45a85b);
+            
+        
+
+        marker_2f88486c0ede945995a14242bea85f4f.bindPopup(popup_595ed299ea0cbd79c6e89ad386fae9fc)
+        ;
+
+        
+    
+    
+            var marker_a31cdd6b527ad14c910a382ef575b8b1 = L.marker(
+                [-15.3308, 28.45262],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_072704416642f44c20da0b845ee5c3bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55d213d0e363bcda9dff314db7a500c8 = $(`<div id="html_55d213d0e363bcda9dff314db7a500c8" style="width: 100.0%; height: 100.0%;">Lusaka Kenneth Kaunda International Airport</div>`)[0];
+                popup_072704416642f44c20da0b845ee5c3bf.setContent(html_55d213d0e363bcda9dff314db7a500c8);
+            
+        
+
+        marker_a31cdd6b527ad14c910a382ef575b8b1.bindPopup(popup_072704416642f44c20da0b845ee5c3bf)
+        ;
+
+        
+    
+    
+            var marker_41f8e758f8d1abb2b0eceaccc0e6bd5c = L.marker(
+                [-17.931801, 31.09284],
+                {}
+            ).addTo(map_e59d00a2aa44cfbd4eb0ebc85c81fc7c);
+        
+    
+        var popup_df4273e5af021cd2e6f895549a0125dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fc21f12f3169a1eabb0df10351b0e29 = $(`<div id="html_0fc21f12f3169a1eabb0df10351b0e29" style="width: 100.0%; height: 100.0%;">Harare Robert Gabriel Mugabe International Airport</div>`)[0];
+                popup_df4273e5af021cd2e6f895549a0125dd.setContent(html_0fc21f12f3169a1eabb0df10351b0e29);
+            
+        
+
+        marker_41f8e758f8d1abb2b0eceaccc0e6bd5c.bindPopup(popup_df4273e5af021cd2e6f895549a0125dd)
+        ;
+
+        
+    
+</script>
+</html>
